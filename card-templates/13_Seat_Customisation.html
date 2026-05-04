@@ -1,0 +1,472 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    * {
+        font-size: 11px;
+        font-family: "Source Sans Pro";
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    body {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    table {
+        break-inside: avoid;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+        border-top-width: initial !important;
+        border-right-width: initial !important;
+        border-bottom-width: initial !important;
+        border-left-width: initial !important;
+        border-top-style: none !important;
+        border-right-style: none !important;
+        border-bottom-style: none !important;
+        border-left-style: none !important;
+        border-top-color: initial !important;
+        border-right-color: initial !important;
+        border-bottom-color: initial !important;
+        border-left-color: initial !important;
+        border-image-source: initial !important;
+        border-image-slice: initial !important;
+        border-image-width: initial !important;
+        border-image-outset: initial !important;
+        border-image-repeat: initial !important;
+        border-collapse: collapse;
+        font-weight: normal;
+    }
+
+    tr,
+    th,
+    td {
+        padding-top: 2px;
+        padding-right: 5px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        border-top-width: initial !important;
+        border-right-width: initial !important;
+        border-bottom-width: initial !important;
+        border-left-width: initial !important;
+        border-top-style: none !important;
+        border-right-style: none !important;
+        border-bottom-style: none !important;
+        border-left-style: none !important;
+        border-top-color: initial !important;
+        border-right-color: initial !important;
+        border-bottom-color: initial !important;
+        border-left-color: initial !important;
+        border-image-source: initial !important;
+        border-image-slice: initial !important;
+        border-image-width: initial !important;
+        border-image-outset: initial !important;
+        border-image-repeat: initial !important;
+        border-collapse: collapse;
+        font-weight: normal;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-row-group;
+    }
+
+    tr {
+        break-inside: avoid;
+        break-before: avoid;
+        text-align: left;
+        padding-top: 5px;
+    }
+
+    .sheet.padding-10mm {
+        padding-top: 10mm;
+        padding-right: 10mm;
+        padding-bottom: 10mm;
+        padding-left: 10mm;
+    }
+
+    .sheet {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        box-sizing: border-box;
+        break-after: page;
+    }
+
+    body.A3 .sheet {
+        width: 297mm;
+        height: 419mm;
+    }
+
+    body.A3.landscape .sheet {
+        width: 420mm;
+        height: 296mm;
+    }
+
+    body.A4 .sheet {
+        width: 210mm;
+        min-height: 296mm;
+    }
+
+    body.A4.landscape .sheet {
+        width: 297mm;
+        height: 209mm;
+    }
+
+    body.A5 .sheet {
+        width: 148mm;
+        height: 209mm;
+    }
+
+    body.A5.landscape .sheet {
+        width: 210mm;
+        height: 147mm;
+    }
+
+    body.letter .sheet {
+        width: 216mm;
+        height: 279mm;
+    }
+
+    body.letter.landscape .sheet {
+        width: 280mm;
+        height: 215mm;
+    }
+
+    body.legal .sheet {
+        width: 216mm;
+        height: 356mm;
+    }
+
+    body.legal.landscape .sheet {
+        width: 357mm;
+        height: 215mm;
+    }
+
+    .sheet.padding-15mm {
+        padding-top: 15mm;
+        padding-right: 15mm;
+        padding-bottom: 15mm;
+        padding-left: 15mm;
+    }
+
+    .sheet.padding-20mm {
+        padding-top: 20mm;
+        padding-right: 20mm;
+        padding-bottom: 20mm;
+        padding-left: 20mm;
+    }
+
+    .sheet.padding-25mm {
+        padding-top: 25mm;
+        padding-right: 25mm;
+        padding-bottom: 25mm;
+        padding-left: 25mm;
+    }
+
+    div.height {
+        height: 150px;
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    .br_ln td {
+        border-top-width: 1px !important;
+        border-right-width: 1px !important;
+        border-bottom-width: 1px !important;
+        border-left-width: 1px !important;
+        border-top-style: solid !important;
+        border-right-style: solid !important;
+        border-bottom-style: solid !important;
+        border-left-style: solid !important;
+        border-top-color: rgb(167, 167, 167) !important;
+        border-right-color: rgb(167, 167, 167) !important;
+        border-bottom-color: rgb(167, 167, 167) !important;
+        border-left-color: rgb(167, 167, 167) !important;
+        border-image-source: initial !important;
+        border-image-slice: initial !important;
+        border-image-width: initial !important;
+        border-image-outset: initial !important;
+        border-image-repeat: initial !important;
+    }
+
+    td {
+        vertical-align: top;
+    }
+
+    #i8orq {
+        width: 50%;
+    }
+
+    #ihrl1 {
+        width: 50%;
+        vertical-align: middle;
+    }
+
+    #inya6 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #iip3x {
+        padding-left: 40%;
+    }
+
+    #iv4s8 {
+        width: 30%;
+    }
+
+    #ino6n {
+        width: 70%;
+    }
+
+    #i6tng {
+        display: inline;
+        width: 100px;
+        height: 100px;
+    }
+
+    @page {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    @media screen {
+        body {
+            background-image: initial;
+            background-position-x: initial;
+            background-position-y: initial;
+            background-size: initial;
+            background-repeat: initial;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: rgb(224, 224, 224);
+        }
+
+        .sheet {
+            background-image: initial;
+            background-position-x: initial;
+            background-position-y: initial;
+            background-size: initial;
+            background-repeat: initial;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 0.5mm 2mm;
+            margin-top: 5mm;
+            margin-right: auto;
+            margin-bottom: 5mm;
+            margin-left: auto;
+        }
+    }
+
+    @media print {
+        body.A3.landscape {
+            width: 420mm;
+        }
+
+        body.A3,
+        body.A4.landscape {
+            width: 297mm;
+        }
+
+        body.A4,
+        body.A5.landscape {
+            width: 210mm;
+        }
+
+        body.A5 {
+            width: 148mm;
+        }
+
+        body.letter,
+        body.legal {
+            width: 216mm;
+        }
+
+        body.letter.landscape {
+            width: 280mm;
+        }
+
+        body.legal.landscape {
+            width: 357mm;
+        }
+    }
+</style>
+<meta charset="utf-8" />
+<title>Gold Medal Pool Template</title>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+<link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,400&display=swap"
+    rel="stylesheet" />
+<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+<section class="sheet">
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td id="i8orq"><img
+                            src="https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/logo/e15e4a99-e02d-454e-8c56-7dc9ed497ac5.png"
+                            width="80%" />
+                    </td>
+                    <td id="ihrl1">
+                        <h6 id="inya6">Seat Customisation</h6>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div><br />
+    <div id="iip3x">
+        <p><b>Job #</b> {{work_order_number}} </p>
+        <p><b>Customer Name:</b> {{#if customer}} {{customer.customer_first_name}} {{/if}} {{#if customer}}
+            {{customer.customer_last_name}} {{/if}}</p>
+        <p><b>Start Date:</b>
+            {{#if scheduled_start_time}} {{formatDateWithTimeZone scheduled_start_time 'DD/MM/YYYY hh:mm A' timezone}}
+            {{/if}}
+        </p>
+    </div>
+    {{#eachLastInstance job_status "status_name"}}
+    {{#stringEq status_name 'Colours Confirmed'}}
+    <table class="w-100 br_ln">
+        <tbody>
+            <tr>
+                <td id="iv4s8"><b>Date Input</b></td>
+                <td id="ino6n">
+                    {{#each checklist}}
+                    {{#stringEqStrict question 'Date Input'}}
+                    {{#if answer}}
+                    {{answer}}
+                    {{/if}}
+                    {{/stringEqStrict}}
+                    {{/each}}</td>
+            </tr>
+            <tr>
+                <td><b>Main Colour - Outer</b></td>
+                <td>
+                    {{#each checklist}}
+                    {{#stringEqStrict question 'Main Colour - Outer'}}
+                    {{#if answer}}
+                    {{answer}}
+                    {{/if}}
+                    {{/stringEqStrict}}
+                    {{/each}}
+                </td>
+            </tr>
+            <tr>
+                <td><b>Seat Details</b></td>
+                <td>
+                    {{#each checklist}}
+                    {{#stringEqStrict question 'Seat Details'}}
+                    {{#if answer}}
+                    {{answer}}
+                    {{/if}}
+                    {{/stringEqStrict}}
+                    {{/each}}
+                </td>
+            </tr>
+            <tr>
+                <td><b>Second colour - Center</b></td>
+                <td>
+                    {{#each checklist}}
+                    {{#stringEqStrict question 'Second colour - Center'}}
+                    {{#if answer}}
+                    {{answer}}
+                    {{/if}}
+                    {{/stringEqStrict}}
+                    {{/each}}
+                </td>
+            </tr>
+            <tr>
+                <td><b>Stitching Colour</b></td>
+                <td>
+                    {{#each checklist}}
+                    {{#stringEqStrict question 'Stitching Colour'}}
+                    {{#if answer}}
+                    {{answer}}
+                    {{/if}}
+                    {{/stringEqStrict}}
+                    {{/each}}
+                </td>
+            </tr>
+            <tr>
+                <td><b>Piping Colour</b></td>
+                <td>
+                    {{#each checklist}}
+                    {{#stringEqStrict question 'Piping Colour'}}
+                    {{#if answer}}
+                    {{answer}}
+                    {{/if}}
+                    {{/stringEqStrict}}
+                    {{/each}}
+                </td>
+            </tr>
+            <tr>
+                <td><b>Embroidary</b></td>
+                <td>
+                    {{#each checklist}}
+                    {{#stringEqStrict question 'Embroidary'}}
+                    {{#if answer}}
+                    {{answer}}
+                    {{/if}}
+                    {{/stringEqStrict}}
+                    {{/each}}
+                </td>
+            </tr>
+            <tr>
+                <td><b>Additional Note</b></td>
+                <td>
+                    {{#each checklist}}
+                    {{#stringEqStrict question 'Additional Note'}}
+                    {{#if answer}}
+                    {{answer}}
+                    {{/if}}
+                    {{/stringEqStrict}}
+                    {{/each}}
+                </td>
+            </tr>
+            <tr>
+                <td><b>Reference Pictures</b></td>
+                <td>
+                    {{#each checklist}}
+                    {{#stringEqStrict question 'Reference Picture'}}
+                    {{#split answer ','}}
+                    <img src="{{.}}" id="i6tng" />
+                    {{/split}}
+                    {{/stringEqStrict}}
+                    {{/each}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    {{/stringEq}}
+    {{/eachLastInstance}}
+
+</section>

@@ -1,0 +1,503 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    * {
+        font-size: 12px;
+        font-family: Roboto, sans-serif;
+    }
+
+    body {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        height: auto;
+        width: auto;
+    }
+
+    table {
+        break-inside: avoid;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+        border-top-width: initial !important;
+        border-right-width: initial !important;
+        border-bottom-width: initial !important;
+        border-left-width: initial !important;
+        border-top-style: none !important;
+        border-right-style: none !important;
+        border-bottom-style: none !important;
+        border-left-style: none !important;
+        border-top-color: initial !important;
+        border-right-color: initial !important;
+        border-bottom-color: initial !important;
+        border-left-color: initial !important;
+        border-image-source: initial !important;
+        border-image-slice: initial !important;
+        border-image-width: initial !important;
+        border-image-outset: initial !important;
+        border-image-repeat: initial !important;
+        border-collapse: collapse;
+    }
+
+    tr,
+    th,
+    td {
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: black;
+        border-right-color: black;
+        border-bottom-color: black;
+        border-left-color: black;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-collapse: collapse;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-row-group;
+    }
+
+    tr {
+        break-inside: avoid;
+        break-before: avoid;
+    }
+
+    #i6bb {
+        width: 100%;
+    }
+
+    #i885j {
+        margin-top: 1%;
+    }
+
+    #i7yc9 {
+        width: 100%;
+    }
+
+    #ijttl {
+        width: 50%;
+    }
+
+    #iqia6 {
+        width: 50%;
+    }
+
+    #iwmgd {
+        width: 50%;
+    }
+
+    #im9om {
+        width: 50%;
+    }
+
+    #ie0vj {
+        text-align: center;
+    }
+
+    #iz43u {
+        text-align: center;
+    }
+
+    #itg4n {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #io52q {
+        width: 400px;
+        height: 350px;
+    }
+
+    #ir9iu {
+        width: 100%;
+        margin-top: 2%;
+        page-break-inside: avoid;
+    }
+
+    #ipbvg {
+        page-break-inside: avoid;
+    }
+
+    #iqccv {
+        width: 100%;
+        margin-top: 1%;
+        page-break-inside: avoid;
+    }
+
+    #i8myc {
+        page-break-inside: avoid;
+    }
+
+    #i18bp {
+        page-break-inside: avoid;
+    }
+
+    #ira0p {
+        width: 50%;
+    }
+
+    #isg15 {
+        font-weight: bold;
+    }
+
+    #i30dk {
+        width: 50%;
+    }
+
+    #i4mpa {
+        font-weight: bold;
+    }
+
+    #i939d {
+        page-break-inside: avoid;
+    }
+
+    #ilp6m {
+        width: 50%;
+    }
+
+    #igo5l {
+        width: 200px;
+        height: 266px;
+    }
+
+    #ihl5p {
+        width: 50%;
+    }
+
+    #i76xj {
+        width: 200px;
+        height: 266px;
+    }
+
+    #i2gyl {
+        width: 100%;
+        page-break-inside: avoid;
+    }
+
+    #ihclh {
+        page-break-inside: avoid;
+    }
+
+    #i9ubk {
+        width: 50%;
+    }
+
+    #iul5g {
+        font-weight: bold;
+    }
+
+    #i5imk {
+        width: 50%;
+    }
+
+    #ii7sg {
+        font-weight: bold;
+    }
+
+    #isinin {
+        page-break-inside: avoid;
+    }
+
+    #i5ouuh {
+        width: 50%;
+    }
+
+    #iovfd4 {
+        width: 200px;
+        height: 266px;
+    }
+
+    #ij1luk {
+        width: 50%;
+    }
+
+    #ifw6k7 {
+        width: 200px;
+        height: 266px;
+    }
+
+    #ijswmb {
+        page-break-inside: avoid;
+        margin-top: 1%;
+    }
+
+    #i1jov6 {
+        page-break-inside: avoid;
+    }
+
+    #i4fh5u {
+        page-break-inside: avoid;
+    }
+
+    #itgnmc {
+        page-break-inside: avoid;
+    }
+
+    #ioefj1 {
+        page-break-inside: avoid;
+    }
+
+    #i67pz1 {
+        page-break-inside: avoid;
+    }
+
+    #ii2doj {
+        text-align: center;
+    }
+
+    #im17a1 {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #ijgwm1 {
+        width: 400px;
+        height: 350px;
+    }
+
+    #ixibje {
+        border: none;
+    }
+
+    #iwsosy {
+        border: none;
+    }
+
+    #ib381f {
+        border: none;
+    }
+
+    #i4qzmb {
+        box-sizing: border-box;
+        color: black;
+        width: 175px;
+        height: 75px;
+        margin: 3px 0 6px 6px;
+        padding: 3px 1px 0 8px;
+    }
+
+    #ipctmk {
+        font-weight: bold;
+        margin: 3px 0 6px 10px;
+    }
+
+    #pageFooter {
+        text-align: center;
+    }
+</style>
+<meta charset="utf-8" />
+<title>Site Survey Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+<div id="pageHeader"><img
+        src="https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/d72d9c81-ce36-4c62-8242-e5a67cfef34f/c7b35920-4be0-11ec-9a6f-abaf31593900.png"
+        alt="https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/d72d9c81-ce36-4c62-8242-e5a67cfef34f/c7b35920-4be0-11ec-9a6f-abaf31593900.png"
+        id="i6bb" />
+</div>
+<div id="i885j">
+
+    {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Started"}}
+
+    {{/stringEq}}{{/eachLastInstance}}
+
+    {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Pre Start Risk Assessment"}}
+    {{#each checklist}}
+
+    {{/each}}
+    {{/stringEq}}{{/eachLastInstance}}
+    <table id="i7yc9">
+        <tbody>
+            <tr>
+                <td id="ijttl"><b>Customer Name</b> - {{customer.customer_first_name}} {{customer.customer_last_name}}
+                </td>
+                <td id="iqia6"><b>Date & time</b> - {{#if scheduled_start_time}} {{formatDateWithTimeZone
+                    scheduled_start_time "DD-MM-YY hh:mm A" timezone}} {{else}} {{formatDateWithTimeZone due_date
+                    "DD-MM-YY" timezone}} {{/if}}</td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Customer Address</b> - {{customer_billing_address.street}},
+                    {{customer_billing_address.state}}, {{customer.customer_contact_no.mobile}}</td>
+            </tr>
+            <tr>
+                <td id="iwmgd"><b>Job Ref</b> - {{work_order_number}}</td>
+                <td id="im9om"><b>Technicians</b> {{#each assigned_to}} {{user.first_name}} {{user.last_name}},
+                    {{/each}}</td>
+            </tr>
+            <tr>
+                <td><b>EV Serial Number</b> - {{#each checklist}}{{#stringEqStrict question "EV Serial
+                    Number"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+                <td><b>EV Model Number</b> - {{#each checklist}}{{#stringEqStrict question "EV Model
+                    Number"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td colspan="2" id="ie0vj"><b>Pre Start Risk Assessment</b></td>
+            </tr>
+            <tr>
+                <td><b>{{question}}</b></td>
+                <td>{{answer}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="iz43u">
+        {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Started"}}
+        {{#each checklist}}{{#stringEqStrict question "Chassis Plate Picture:"}}
+        <p id="itg4n">Chassis Plate Picture</p><img src="{{answer}}" id="io52q" />
+        {{/stringEqStrict}}{{/each}}
+        {{/stringEq}}{{/eachLastInstance}}
+    </div>
+
+    {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Started"}}
+
+    <table id="ir9iu">
+        <tbody>
+            <tr id="ipbvg">
+                <td colspan="2"><b>Wheels and Tyres</b> - {{#each checklist}}{{#stringEqStrict question "Wheels and
+                    Tyres"}}{{answer}}{{/stringEqStrict}}{{/each}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="iqccv">
+        <tbody>
+            <tr id="i8myc">
+                <!-- <td colspan="2">
+                  <b>Wheels and Tyres</b> - {{#each checklist}}{{#stringEqStrict question "Wheels and Tyres"}}{{answer}}{{/stringEqStrict}}{{/each}}
+               </td> -->
+            </tr>
+            <tr id="i18bp">
+                <td id="ira0p">
+                    <center id="isg15">Driver Side Front Wheel</center>
+                </td>
+                <td id="i30dk">
+                    <center id="i4mpa">Drivers Side Rear Wheel</center>
+                </td>
+            </tr>
+            <tr id="i939d">
+                <td id="ilp6m">
+                    {{#each checklist}} {{#stringEq question "Driver Side Front Wheel"}}
+                    <center><img src="{{answer}}" id="igo5l" /></center>
+                    {{/stringEq}} {{/each}}
+                </td>
+                <td id="ihl5p">
+                    {{#each checklist}} {{#stringEq question "Drivers Side Rear Wheel"}}
+                    <center><img src="{{answer}}" id="i76xj" /></center>
+                    {{/stringEq}} {{/each}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="i2gyl">
+        <tbody>
+            <tr id="ihclh">
+                <td id="i9ubk">
+                    <center id="iul5g">Passenger Side Front Wheel</center>
+                </td>
+                <td id="i5imk">
+                    <center id="ii7sg">Passenger Side Rear Wheel</center>
+                </td>
+            </tr>
+            <tr id="isinin">
+                <td id="i5ouuh">
+                    {{#each checklist}} {{#stringEq question "Passenger Side Front Wheel"}}
+                    <center><img src="{{answer}}" id="iovfd4" /></center>
+                    {{/stringEq}} {{/each}}
+                </td>
+                <td id="ij1luk">
+                    {{#each checklist}} {{#stringEq question "Passenger Side Rear Wheel"}}
+                    <center><img src="{{answer}}" id="ifw6k7" /></center>
+                    {{/stringEq}} {{/each}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    {{/stringEq}}{{/eachLastInstance}}
+
+    {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Started"}}
+    <table id="ijswmb">
+        <tbody>
+            <tr id="i1jov6">
+                <td colspan="2"><b>Body Work</b> - {{#each checklist}} {{#stringEqStrict question "Body Work"}}
+                    {{answer}} {{/stringEqStrict}} {{/each}}
+                </td>
+            </tr>
+            <tr id="i4fh5u">
+                <td colspan="2">
+                    <blights< b=""> - {{#each checklist}} {{#stringEqStrict question "Lights"}} {{answer}}
+                        {{/stringEqStrict}} {{/each}}
+                    </blights<>
+                </td>
+            </tr>
+            <tr id="itgnmc">
+                <td colspan="2"><b>Battery Box</b> - {{#each checklist}} {{#stringEqStrict question "Battery Box"}}
+                    {{answer}} {{/stringEqStrict}} {{/each}}
+                </td>
+            </tr>
+            <tr id="ioefj1">
+                <td colspan="2"><b>Brakes</b> - {{#each checklist}} {{#stringEqStrict question "Brakes"}} {{answer}}
+                    {{/stringEqStrict}} {{/each}}
+                </td>
+            </tr>
+            <tr id="i67pz1">
+                <td colspan="2"><b>Test Drive</b> - {{#each checklist}} {{#stringEqStrict question "Test Drive"}}
+                    {{answer}} {{/stringEqStrict}} {{/each}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    {{/stringEq}}{{/eachLastInstance}}
+    <div id="ii2doj">
+        {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Started"}}
+        <p id="im17a1">Body Work Pictures</p>
+        {{#each checklist}}{{#stringEqStrict question "Bodywork Pictures"}}
+        {{#split answer ","}}
+        <img src="{{this}}" id="ijgwm1" />
+        {{/split}}
+        {{/stringEqStrict}}{{/each}}
+        {{/stringEq}}{{/eachLastInstance}}
+    </div>
+    <table id="ixibje">
+        <tbody>
+            <tr id="iwsosy">
+                <td id="ib381f">
+                    <div>
+                        {{#eachLastInstance job_status "status_name"}}
+                        {{#stringEq status_name "Workshop Complete"}}
+                        <img src="{{customer_signature}}" id="i4qzmb" />
+                        <p id="ipctmk">Customer Signature</p>
+                        {{/stringEq}}
+                        {{/eachLastInstance}}
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div id="pageFooter"><a href="https://zuper.co/"></a></div>

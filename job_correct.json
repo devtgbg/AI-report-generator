@@ -1,0 +1,2037 @@
+{
+  "type": "success",
+  "data": {
+    "job_uid": "092c2f81-b125-4fd3-8d74-fdaade1c7386",
+    "customer": {
+      "customer_uid": "23f8820b-019d-43d1-82d1-8eef5adf592a",
+      "customer_first_name": "Candice",
+      "customer_last_name": "Moogan",
+      "customer_company_name": "",
+      "customer_email": null,
+      "customer_contact_no": {
+        "mobile": "(971)(52)758-7536",
+        "home": null,
+        "work": null
+      },
+      "customer_address": {
+        "city": "Dubai",
+        "state": "Dubai",
+        "street": "88 Sanctuary Falls",
+        "country": "United Arab Emirates",
+        "landmark": "",
+        "zip_code": null
+      },
+      "customer_billing_address": {
+        "city": "Dubai",
+        "state": "Dubai",
+        "street": "88 Sanctuary Falls",
+        "country": "United Arab Emirates",
+        "landmark": "",
+        "zip_code": null
+      },
+      "custom_fields": [
+        {
+          "label": "Zoho CRM Contact ID",
+          "value": "4740393000040003064",
+          "hide_to_fe": false,
+          "hide_field": false,
+          "read_only": false,
+          "_id": "696a4bca70df72f98d7f35da"
+        }
+      ],
+      "accounts": {
+        "ltv": 0,
+        "receivables": 0,
+        "credits": 0
+      },
+      "is_active": true,
+      "is_deleted": false,
+      "created_at": "2024-07-03T14:51:24.674Z",
+      "updated_at": "2026-01-19T05:05:49.789Z",
+      "do_not_service": false,
+      "associations": {
+        "notes": 0
+      },
+      "customer_category": null
+    },
+    "prefix": "JGE",
+    "delayed_job": false,
+    "assigned_to_team": [
+      {
+        "team": {
+          "team_uid": "6a94da64-88f2-4cba-a449-f2caa599bb24",
+          "team_name": "JGE Techs",
+          "team_color": "#4960a0",
+          "is_active": true,
+          "is_deleted": false
+        }
+      }
+    ],
+    "assigned_to": [
+      {
+        "user": {
+          "user_uid": "c4fe3910-f2ca-4924-a926-38eafe4ce86c",
+          "first_name": "Dumida",
+          "last_name": "Goluwa Marakkalage",
+          "email": "Dumindatgbg@gmail.com",
+          "external_login_id": "tharargaduminda@gmail.com",
+          "home_phone_number": null,
+          "designation": "JGE Technician",
+          "emp_code": "Dumi",
+          "prefix": null,
+          "work_phone_number": "+971 52 241 0680",
+          "mobile_phone_number": "+971 52 241 0680",
+          "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/6aa3eb52-cf7c-4513-8dd8-9a19f7e3efba.jpeg",
+          "hourly_labor_charge": 165,
+          "is_active": true,
+          "is_deleted": false,
+          "created_at": "2024-12-12T12:45:34.000Z",
+          "updated_at": "2025-11-03T04:38:32.000Z",
+          "last_login_at": "2026-01-05T04:45:38.000Z",
+          "role": {
+            "role_id": 3,
+            "role_uid": "504e52bc-ff7d-11e7-8be5-0ed5f89f718b",
+            "role_name": "Field Executive",
+            "role_key": "FIELD_EXECUTIVE",
+            "created_at": "2018-01-22T00:00:00.000Z",
+            "updated_at": "2018-01-22T00:00:00.000Z"
+          },
+          "user_meta_data": {
+            "labor_type_uid": null,
+            "burden_rate": {
+              "type": "FIXED",
+              "value": 0
+            }
+          }
+        },
+        "team": {
+          "team_uid": "6a94da64-88f2-4cba-a449-f2caa599bb24",
+          "team_name": "JGE Techs",
+          "team_color": "#4960a0",
+          "is_active": true,
+          "is_deleted": false
+        },
+        "is_primary": false,
+        "is_accepted": true,
+        "acceptance_status": "ACCEPTED",
+        "assigned_at": "2026-01-19T05:05:49.153Z"
+      }
+    ],
+    "job_title": "AMC Silver Visit 1 of 6",
+    "job_description": "<p style=\"background-color: rgb(249, 250, 252);\"><b><u>AMC Service:</u></b>&nbsp;</p><p style=\"background-color: rgb(249, 250, 252);\">Carry out inspection and service of the LSEV and complete report</p>",
+    "plain_text_description": "AMC Service: Carry out inspection and service of the LSEV and complete report",
+    "markdown_description": "**AMC Service:** \n\nCarry out inspection and service of the LSEV and complete report",
+    "job_category": {
+      "is_deleted": false,
+      "estimated_duration": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 0
+      },
+      "category_name": "AMC - Workshop",
+      "category_uid": "50760630-e936-11eb-b563-e79186433e7f",
+      "category_color": "#c0c0c0",
+      "job_timelog": {
+        "job_timer": true,
+        "travel_timer": true,
+        "meal_break_timer": true
+      },
+      "business_unit": []
+    },
+    "job_priority": "LOW",
+    "job_type": "NEW",
+    "job_tags": [],
+    "scheduled_start_time": "2026-01-19T12:00:00.000Z",
+    "scheduled_end_time": "2026-01-19T13:00:00.000Z",
+    "scheduled_duration": 60,
+    "current_job_status": {
+      "status_uid": "3542fafe-0a95-44ae-bb40-6148a90276a5",
+      "status_name": "Job Completed",
+      "status_type": "COMPLETED",
+      "status_color": "#27ae60"
+    },
+    "job_status": [
+      {
+        "status_history_uid": "5ef82c1d-819f-4f2f-b238-564e21cb813d",
+        "status_uid": "759f7f1c-93df-42b2-87b6-5b6cd6f2efb0",
+        "status_name": "TBC",
+        "status_type": "NEW",
+        "status_color": "#3498db",
+        "checklist": [],
+        "done_by": {
+          "user_uid": "c2f394f8-b5fc-4da5-9f5c-8c13c6574cb7",
+          "first_name": "Elizabeth",
+          "last_name": "Santos",
+          "email": "e.santos@golfbuggyguy.com",
+          "external_login_id": null,
+          "home_phone_number": null,
+          "designation": "JGE AMC Customer Service",
+          "emp_code": "CS",
+          "prefix": null,
+          "work_phone_number": "+971 50 194 5103",
+          "mobile_phone_number": "+971 50 194 5103",
+          "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/assets/profile_picture.jpg",
+          "hourly_labor_charge": null,
+          "is_active": true,
+          "is_deleted": false,
+          "created_at": "2025-12-20T11:29:24.000Z",
+          "updated_at": "2025-12-31T08:21:47.000Z",
+          "last_login_at": "2026-01-20T05:16:03.000Z",
+          "role": {
+            "role_id": 1,
+            "role_uid": "504e4eac-ff7d-11e7-8be5-0ed5f89f718b",
+            "role_name": "Admin",
+            "role_key": "ADMIN",
+            "created_at": "2018-01-22T00:00:00.000Z",
+            "updated_at": "2018-01-22T00:00:00.000Z"
+          },
+          "user_meta_data": {
+            "labor_type_uid": null,
+            "burden_rate": null
+          }
+        },
+        "created_at": "2026-01-19T05:05:49.153Z",
+        "synced_at": "2026-01-19T05:05:49.153Z",
+        "is_offline": false,
+        "updated_at": "2026-01-19T05:05:49.153Z",
+        "_id": "696dbbadc228b2bf3cf3d8f0"
+      },
+      {
+        "status_history_uid": "01629748-801c-4f39-9537-3775d5647a4d",
+        "status_uid": "85e38c4c-207d-4950-ac70-2858922e98d9",
+        "status_name": "Scheduled",
+        "status_type": "SCHEDULED",
+        "status_color": "#aa7942",
+        "customer_signature": "",
+        "checklist": [],
+        "done_by": {
+          "user_uid": "c2f394f8-b5fc-4da5-9f5c-8c13c6574cb7",
+          "first_name": "Elizabeth",
+          "last_name": "Santos",
+          "email": "e.santos@golfbuggyguy.com",
+          "external_login_id": null,
+          "home_phone_number": null,
+          "designation": "JGE AMC Customer Service",
+          "emp_code": "CS",
+          "prefix": null,
+          "work_phone_number": "+971 50 194 5103",
+          "mobile_phone_number": "+971 50 194 5103",
+          "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/assets/profile_picture.jpg",
+          "hourly_labor_charge": null,
+          "is_active": true,
+          "is_deleted": false,
+          "created_at": "2025-12-20T11:29:24.000Z",
+          "updated_at": "2025-12-31T08:21:47.000Z",
+          "last_login_at": "2026-01-20T05:16:03.000Z",
+          "role": {
+            "role_id": 1,
+            "role_uid": "504e4eac-ff7d-11e7-8be5-0ed5f89f718b",
+            "role_name": "Admin",
+            "role_key": "ADMIN",
+            "created_at": "2018-01-22T00:00:00.000Z",
+            "updated_at": "2018-01-22T00:00:00.000Z"
+          },
+          "user_meta_data": {
+            "labor_type_uid": null,
+            "burden_rate": null
+          }
+        },
+        "created_at": "2026-01-19T05:07:53.240Z",
+        "synced_at": "2026-01-19T05:07:53.240Z",
+        "is_offline": false,
+        "updated_at": "2026-01-19T05:07:53.240Z",
+        "_id": "696dbc29b300db32fff70b4c"
+      },
+      {
+        "status_history_uid": "78a46c03-a99a-49d5-bb0c-aef5885e05b7",
+        "status_uid": "d8a6ae03-e2b4-4158-ba6c-8a3150fb0059",
+        "status_name": "On My Way",
+        "status_type": "ON_MY_WAY",
+        "status_color": "#ff9300",
+        "remarks_free_text": "workshop ",
+        "checklist": [],
+        "eta": "5 mins",
+        "done_by": {
+          "user_uid": "c4fe3910-f2ca-4924-a926-38eafe4ce86c",
+          "first_name": "Dumida",
+          "last_name": "Goluwa Marakkalage",
+          "email": "Dumindatgbg@gmail.com",
+          "external_login_id": "tharargaduminda@gmail.com",
+          "home_phone_number": null,
+          "designation": "JGE Technician",
+          "emp_code": "Dumi",
+          "prefix": null,
+          "work_phone_number": "+971 52 241 0680",
+          "mobile_phone_number": "+971 52 241 0680",
+          "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/6aa3eb52-cf7c-4513-8dd8-9a19f7e3efba.jpeg",
+          "hourly_labor_charge": 165,
+          "is_active": true,
+          "is_deleted": false,
+          "created_at": "2024-12-12T12:45:34.000Z",
+          "updated_at": "2025-11-03T04:38:32.000Z",
+          "last_login_at": "2026-01-05T04:45:38.000Z",
+          "role": {
+            "role_id": 3,
+            "role_uid": "504e52bc-ff7d-11e7-8be5-0ed5f89f718b",
+            "role_name": "Field Executive",
+            "role_key": "FIELD_EXECUTIVE",
+            "created_at": "2018-01-22T00:00:00.000Z",
+            "updated_at": "2018-01-22T00:00:00.000Z"
+          },
+          "user_meta_data": {
+            "labor_type_uid": null,
+            "burden_rate": {
+              "type": "FIXED",
+              "value": 0
+            }
+          }
+        },
+        "created_at": "2026-01-19T11:57:17.142Z",
+        "synced_at": "2026-01-19T11:57:17.142Z",
+        "is_offline": false,
+        "updated_at": "2026-01-19T11:57:17.142Z",
+        "_id": "696e1c1d1a2a5f44fb34ed71"
+      },
+      {
+        "status_history_uid": "dcb19df9-a1b6-40a0-b8b7-3048d199205e",
+        "status_uid": "c6853ba6-fc12-47c2-a3f7-5b3e2bb2fe9e",
+        "status_name": "Pre Start Risk Assessment",
+        "status_type": "STARTED",
+        "status_color": "#000000",
+        "checklist": [
+          {
+            "question": "Is the vehicle in a safe place to carry out the inspection",
+            "answer": "no",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T11:58:05.365Z"
+          },
+          {
+            "question": "Date & Time of H&S Check",
+            "answer": "2026-01-19 11:57:00",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "DATETIME",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T11:58:05.365Z"
+          },
+          {
+            "question": "Signature",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/edbd9fc4-1cd1-4491-a423-33df07afd602.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SIGNATURE",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T11:58:05.365Z"
+          },
+          {
+            "question": "Technicians Name:",
+            "answer": "dumee ",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T11:58:05.365Z"
+          }
+        ],
+        "checklist_internal_object": {
+          "amc___workshop_signature": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/edbd9fc4-1cd1-4491-a423-33df07afd602.jpg",
+          "amc___workshop_is_the_vehicle_in_a_safe_place_to_carry_out_the_inspection": "no",
+          "amc___workshop_technicians_name_": "dumee ",
+          "amc___workshop_date___time_of_h_s_check": "2026-01-19 11:57:00"
+        },
+        "geo_cordinates": [
+          25.028786,
+          55.201866
+        ],
+        "done_by": {
+          "user_uid": "c4fe3910-f2ca-4924-a926-38eafe4ce86c",
+          "first_name": "Dumida",
+          "last_name": "Goluwa Marakkalage",
+          "email": "Dumindatgbg@gmail.com",
+          "external_login_id": "tharargaduminda@gmail.com",
+          "home_phone_number": null,
+          "designation": "JGE Technician",
+          "emp_code": "Dumi",
+          "prefix": null,
+          "work_phone_number": "+971 52 241 0680",
+          "mobile_phone_number": "+971 52 241 0680",
+          "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/6aa3eb52-cf7c-4513-8dd8-9a19f7e3efba.jpeg",
+          "hourly_labor_charge": 165,
+          "is_active": true,
+          "is_deleted": false,
+          "created_at": "2024-12-12T12:45:34.000Z",
+          "updated_at": "2025-11-03T04:38:32.000Z",
+          "last_login_at": "2026-01-05T04:45:38.000Z",
+          "role": {
+            "role_id": 3,
+            "role_uid": "504e52bc-ff7d-11e7-8be5-0ed5f89f718b",
+            "role_name": "Field Executive",
+            "role_key": "FIELD_EXECUTIVE",
+            "created_at": "2018-01-22T00:00:00.000Z",
+            "updated_at": "2018-01-22T00:00:00.000Z"
+          },
+          "user_meta_data": {
+            "labor_type_uid": null,
+            "burden_rate": {
+              "type": "FIXED",
+              "value": 0
+            }
+          }
+        },
+        "created_at": "2026-01-19T11:58:05.365Z",
+        "synced_at": "2026-01-19T11:58:05.365Z",
+        "is_offline": false,
+        "updated_at": "2026-01-19T11:58:05.365Z",
+        "_id": "696e1c4d1a5a08cc3a641840"
+      },
+      {
+        "status_history_uid": "9a7a554a-75f4-4d8a-a4db-30c560801826",
+        "status_uid": "8722a91d-38c4-49eb-8803-aa44a06849f5",
+        "status_name": "Started",
+        "status_type": "STARTED",
+        "status_color": "#ff9300",
+        "remarks_free_text": "AMC",
+        "checklist": [
+          {
+            "question": "Buggy Details",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "HEADER",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Brand",
+            "answer": "Club Car",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Model",
+            "answer": "US BUGGY ",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Buggy Serial Number:",
+            "answer": "JE1410-444254",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "BARCODE",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Serial Number",
+            "answer": "JE1410-444254",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Serial Number Picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/0376c237-0b3a-4845-b814-765685954f1d.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Inspected on",
+            "answer": "2026-01-19 12:01:00",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "DATETIME",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery Section",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "HEADER",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery Pack Setup",
+            "answer": "48V: 6 x 8V",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": "Golf Buggy battery pack voltage and battery setup"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 1 Voltage",
+            "answer": "8.32",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 1 State of Charge",
+            "answer": "84",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 1 State of Health",
+            "answer": "100",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 2 Voltage",
+            "answer": "8.37",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 2 State of Charge",
+            "answer": "94",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 2 State of Health",
+            "answer": "100",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 3 Voltage",
+            "answer": "8.35",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 3 State of Charge",
+            "answer": "90",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 3 State of Health",
+            "answer": "100",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 4 Voltage",
+            "answer": "8.35",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 4 State of Charge",
+            "answer": "90",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 4 State of Health",
+            "answer": "100",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": "not applicable for Lithium"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Are batteries 5 & 6 Installed",
+            "answer": "Yes",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": "6 x 8V batteries installed"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 5 Voltage",
+            "answer": "8.40",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 5 State of Charge",
+            "answer": "100",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 5 State of Health",
+            "answer": "100",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 6 Voltage",
+            "answer": "8.33",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 6 State of Charge",
+            "answer": "86",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery 6 State of Health",
+            "answer": "100",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_LINE",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Are batteries 7 & 8 Installed",
+            "answer": "No",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": "8 x 6V Batteries installed"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery Water Level",
+            "answer": "Low and topped up",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery Charger",
+            "answer": "Working and in Good Condition",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery Terminals and Cable Condition",
+            "answer": "Clean and good condition",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery Report",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/3a5598fa-342f-4652-9864-9c073d947c38.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "if applicable"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Battery Terminal Condition",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/8b98e551-5fd9-43fa-88f8-eec5aa75bec5.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "take picture of battery terminals"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Charge State",
+            "answer": "Charger connected and Charging",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Additional Battery Comments",
+            "answer": "all battery systems are functional and in a good state of health.",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_LINE",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Electrics",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "HEADER",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Key Switch or Keypad if fitted",
+            "answer": "Checked and working",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Forward/Reverse Switch & Buzzer",
+            "answer": "Checked and working",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Horn",
+            "answer": "Working",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Are Headlights fitted",
+            "answer": "Yes",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Are all headlights working",
+            "answer": "Yes",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Tow Switch Status",
+            "answer": "Left in On Position",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Are Indicators fitted",
+            "answer": "Yes",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Are all indicators working",
+            "answer": "Yes",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Are Rear Lights Fitted",
+            "answer": "Yes",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Are all rear lights working",
+            "answer": "Yes",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Steering, Suspension and Breaks",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "HEADER",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Steering and Wheel Alignment Visual Iinspection",
+            "answer": "Slight play but useable",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Front Suspension Visual Inspection",
+            "answer": "Needs attention",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Front suspension notes:",
+            "answer": "Bushes need replacing",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Rear Suspension Visual Inspection",
+            "answer": "Good",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Braking System",
+            "answer": "Foot Brake needs attention,Parking Brake is working correctly",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Bodywork and Seats",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "HEADER",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Windscreen Condition",
+            "answer": "Good",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Is the buggy in a clean condition",
+            "answer": "Yes",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Front Bodywork Condition",
+            "answer": "Good for age with light scuffs and marks",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Front Passenger Side picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/6dd7d368-ab5c-4be2-9470-799afa991746.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Rear Bodywork Condition",
+            "answer": "Good for age with light scuffs and marks",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "SINGLE_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Seat Condition",
+            "answer": "Front Seats Good Condition,Rear Seats Good Condition",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Front bonnet / screen picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/889b957e-4343-431e-b8fb-19bd58a2aa64.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Front Drivers Side picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/0a193363-e771-4f9e-9722-7ebaa0d32752.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Rear Buggy Picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/f6a1aea4-55ae-4e58-8273-f9a22aa14cd3.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Rear Drivers Side Picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/ca6c4f86-c893-4d25-9184-307363dcb3a8.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Rear Passenger Side Picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/565c6de7-82c7-4f6d-abcd-748b04816e5c.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Front Seat Pictures",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/918a010e-311d-4101-a859-87186fa8df6a.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_IMAGE",
+            "meta_data": {
+              "description": "Take pictures if seats are damaged"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Rear Seat Pictures",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/77d03587-1566-48d1-834f-31164f851a97.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_IMAGE",
+            "meta_data": {
+              "description": "Take pictures if seats are damaged"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Are Front Seat Belts fitted",
+            "answer": "No",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Are Rear Seat Belts Fitted",
+            "answer": "No",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "RADIO",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Wheels & Tyres",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "HEADER",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Front Drivers Side Tyre Report",
+            "answer": "Tyre is in Good Condition,Air Pressure is Low - inflated to correct pressure,Rim is in good condition",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Tread Depth",
+            "answer": "7mm  - 20% Worn",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Sidewall Picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/fcfbfb9d-d70f-4b0f-b8b6-b0e17afd8469.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture if damaged"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Tread Picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/b6318545-8292-4b9c-ad29-df723fdfc5a5.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture if damaged"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Front Passenger Side Tyre Report",
+            "answer": "Tyre is in Good Condition,Air Pressure is Low - inflated to correct pressure,Rim is in good condition",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": "Overall Condition"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "FPS Tread Depth",
+            "answer": "7mm  - 20% Worn",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "FPS Sidewall picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/ca505760-8f21-4efc-a498-e77dac5278df.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture if damaged"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "FPS Tread picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/fa520db2-c804-4877-8c14-15319afa3341.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture if damaged"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Rear Passenger Side Tyre Report",
+            "answer": "Tyre is in Good Condition,Air Pressure is Low - inflated to correct pressure,Rim is in good condition",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": "Overall Condition"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "RPS Tread Depth",
+            "answer": "7mm  - 20% Worn",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "RPS Sidewall picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/52e58b47-488c-461b-add5-3555694ee2e9.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture if damaged"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "RPS Tread picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/72ae202e-0dc2-4ecf-bddd-e8b48156c77f.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture if damaged"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Rear Drivers Side Tyre Report",
+            "answer": "Tyre is in Good Condition,Air Pressure is Low - inflated to correct pressure,Rim is in good condition",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": "Overall Condition"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "RDS Tread Depth",
+            "answer": "7mm  - 20% Worn",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_ITEM",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "RDS Sidewall picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/c29b99c3-1c25-4cae-afc7-90335a41befd.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture if damaged"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "RDS Tread picture",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/b3c7a99f-4c8d-4db3-be07-47262db899e2.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "IMAGE",
+            "meta_data": {
+              "description": "Take a Picture if damaged"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Additional Wheel & Tyre Notes:",
+            "answer": "all wheels and tyres were functional and found to be in working conditions.",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_LINE",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "General Notes",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "HEADER",
+            "meta_data": {
+              "description": "description"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Additional Comments",
+            "answer": "rear both side wheel Arch is damaged. need replaced brake shoes, drum and cabal  front all bushes need to be replaced . ",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_LINE",
+            "meta_data": {
+              "description": ""
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          },
+          {
+            "question": "Additional Pictures",
+            "answer": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/927af77f-b248-42d2-8ffc-c08b76629564.jpg,https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/cde86228-5747-4c25-98fd-73f73c90efbb.jpg,https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/6af4d8be-2460-4745-854c-66ce442b505a.jpg",
+            "hide_to_fe": false,
+            "hide_field": false,
+            "read_only": false,
+            "type": "MULTI_IMAGE",
+            "meta_data": {
+              "description": "Select multiple pictures"
+            },
+            "updated_at": "2026-01-19T13:04:59.054Z"
+          }
+        ],
+        "checklist_internal_object": {
+          "amc___workshop_model_3": "US BUGGY ",
+          "amc___workshop_battery_pack_setup_3": "48V: 6 x 8V",
+          "amc___workshop_battery_1_state_of_health_3": "100",
+          "amc___workshop_battery_2_state_of_charge_3": "94",
+          "amc___workshop_are_indicators_fitted_3": "Yes",
+          "amc___workshop_serial_number_picture_2": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/0376c237-0b3a-4845-b814-765685954f1d.jpg",
+          "amc___workshop_battery_4_state_of_charge_3": "90",
+          "amc___workshop_buggy_serial_number__3": "JE1410-444254",
+          "amc___workshop_brand_3": "Club Car",
+          "amc___workshop_inspected_on_3": "2026-01-19 12:01:00",
+          "amc___workshop_battery_2_state_of_health_3": "100",
+          "amc___workshop_battery_4_state_of_health_3": "100",
+          "amc___workshop_battery_water_level_3": "Low and topped up",
+          "amc___workshop_battery_report_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/3a5598fa-342f-4652-9864-9c073d947c38.jpg",
+          "amc___workshop_charge_state_3": "Charger connected and Charging",
+          "amc___workshop_battery_3_voltage_3": "8.35",
+          "amc___workshop_battery_3_state_of_charge_3": "90",
+          "amc___workshop_battery_6_voltage_3": "8.33",
+          "amc___workshop_serial_number_3": "JE1410-444254",
+          "amc___workshop_are_all_indicators_working_3": "Yes",
+          "amc___workshop_horn_3": "Working",
+          "amc___workshop_battery_1_voltage_3": "8.32",
+          "amc___workshop_battery_4_voltage_3": "8.35",
+          "amc___workshop_battery_2_voltage_3": "8.37",
+          "amc___workshop_additional_battery_comments_3": "all battery systems are functional and in a good state of health.",
+          "amc___workshop_are_headlights_fitted_3": "Yes",
+          "amc___workshop_are_batteries_5___6_installed_3": "Yes",
+          "amc___workshop_battery_6_state_of_charge_3": "86",
+          "amc___workshop_steering_and_wheel_alignment_visual_iinspection_3": "Slight play but useable",
+          "amc___workshop_front_suspension_visual_inspection_3": "Needs attention",
+          "amc___workshop_battery_5_state_of_charge_3": "100",
+          "amc___workshop_battery_terminals_and_cable_condition_3": "Clean and good condition",
+          "amc___workshop_forward_reverse_switch___buzzer_3": "Checked and working",
+          "amc___workshop_are_all_headlights_working_3": "Yes",
+          "amc___workshop_tow_switch_status_3": "Left in On Position",
+          "amc___workshop_battery_5_voltage_3": "8.40",
+          "amc___workshop_are_batteries_7___8_installed_3": "No",
+          "amc___workshop_battery_charger_3": "Working and in Good Condition",
+          "amc___workshop_battery_terminal_condition_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/8b98e551-5fd9-43fa-88f8-eec5aa75bec5.jpg",
+          "amc___workshop_battery_1_state_of_charge_3": "84",
+          "amc___workshop_battery_5_state_of_health_3": "100",
+          "amc___workshop_are_rear_lights_fitted_3": "Yes",
+          "amc___workshop_battery_3_state_of_health_3": "100",
+          "amc___workshop_are_all_rear_lights_working_3": "Yes",
+          "amc___workshop_battery_6_state_of_health_3": "100",
+          "amc___workshop_key_switch_or_keypad_if_fitted_3": "Checked and working",
+          "amc___workshop_front_passenger_side_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/6dd7d368-ab5c-4be2-9470-799afa991746.jpg",
+          "amc___workshop_braking_system_3": "Foot Brake needs attention,Parking Brake is working correctly",
+          "amc___workshop_rear_passenger_side_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/565c6de7-82c7-4f6d-abcd-748b04816e5c.jpg",
+          "amc___workshop_front_bodywork_condition_3": "Good for age with light scuffs and marks",
+          "amc___workshop_rear_buggy_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/f6a1aea4-55ae-4e58-8273-f9a22aa14cd3.jpg",
+          "amc___workshop_front_bonnet___screen_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/889b957e-4343-431e-b8fb-19bd58a2aa64.jpg",
+          "amc___workshop_rps_tread_depth_3": "7mm  - 20% Worn",
+          "amc___workshop_front_suspension_notes__3": "Bushes need replacing",
+          "amc___workshop_are_rear_seat_belts_fitted_3": "No",
+          "amc___workshop_fps_tread_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/fa520db2-c804-4877-8c14-15319afa3341.jpg",
+          "amc___workshop_tread_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/b6318545-8292-4b9c-ad29-df723fdfc5a5.jpg",
+          "amc___workshop_fps_tread_depth_3": "7mm  - 20% Worn",
+          "amc___workshop_rear_bodywork_condition_3": "Good for age with light scuffs and marks",
+          "amc___workshop_rear_drivers_side_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/ca6c4f86-c893-4d25-9184-307363dcb3a8.jpg",
+          "amc___workshop_windscreen_condition_3": "Good",
+          "amc___workshop_front_drivers_side_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/0a193363-e771-4f9e-9722-7ebaa0d32752.jpg",
+          "amc___workshop_front_seat_pictures_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/918a010e-311d-4101-a859-87186fa8df6a.jpg",
+          "amc___workshop_is_the_buggy_in_a_clean_condition_3": "Yes",
+          "amc___workshop_front_passenger_side_tyre_report_3": "Tyre is in Good Condition,Air Pressure is Low - inflated to correct pressure,Rim is in good condition",
+          "amc___workshop_additional_pictures_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/927af77f-b248-42d2-8ffc-c08b76629564.jpg,https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/cde86228-5747-4c25-98fd-73f73c90efbb.jpg,https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/6af4d8be-2460-4745-854c-66ce442b505a.jpg",
+          "amc___workshop_additional_comments_3": "rear both side wheel Arch is damaged. need replaced brake shoes, drum and cabal  front all bushes need to be replaced . ",
+          "amc___workshop_rear_suspension_visual_inspection_3": "Good",
+          "amc___workshop_are_front_seat_belts_fitted_3": "No",
+          "amc___workshop_rps_tread_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/72ae202e-0dc2-4ecf-bddd-e8b48156c77f.jpg",
+          "amc___workshop_rear_drivers_side_tyre_report_3": "Tyre is in Good Condition,Air Pressure is Low - inflated to correct pressure,Rim is in good condition",
+          "amc___workshop_rds_tread_depth_3": "7mm  - 20% Worn",
+          "amc___workshop_sidewall_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/fcfbfb9d-d70f-4b0f-b8b6-b0e17afd8469.jpg",
+          "amc___workshop_rear_passenger_side_tyre_report_3": "Tyre is in Good Condition,Air Pressure is Low - inflated to correct pressure,Rim is in good condition",
+          "amc___workshop_rear_seat_pictures_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/77d03587-1566-48d1-834f-31164f851a97.jpg",
+          "amc___workshop_tread_depth_3": "7mm  - 20% Worn",
+          "amc___workshop_seat_condition_3": "Front Seats Good Condition,Rear Seats Good Condition",
+          "amc___workshop_front_drivers_side_tyre_report_3": "Tyre is in Good Condition,Air Pressure is Low - inflated to correct pressure,Rim is in good condition",
+          "amc___workshop_fps_sidewall_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/ca505760-8f21-4efc-a498-e77dac5278df.jpg",
+          "amc___workshop_rps_sidewall_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/52e58b47-488c-461b-add5-3555694ee2e9.jpg",
+          "amc___workshop_rds_sidewall_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/c29b99c3-1c25-4cae-afc7-90335a41befd.jpg",
+          "amc___workshop_rds_tread_picture_3": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/b3c7a99f-4c8d-4db3-be07-47262db899e2.jpg",
+          "amc___workshop_additional_wheel___tyre_notes__3": "all wheels and tyres were functional and found to be in working conditions."
+        },
+        "done_by": {
+          "user_uid": "c4fe3910-f2ca-4924-a926-38eafe4ce86c",
+          "first_name": "Dumida",
+          "last_name": "Goluwa Marakkalage",
+          "email": "Dumindatgbg@gmail.com",
+          "external_login_id": "tharargaduminda@gmail.com",
+          "home_phone_number": null,
+          "designation": "JGE Technician",
+          "emp_code": "Dumi",
+          "prefix": null,
+          "work_phone_number": "+971 52 241 0680",
+          "mobile_phone_number": "+971 52 241 0680",
+          "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/6aa3eb52-cf7c-4513-8dd8-9a19f7e3efba.jpeg",
+          "hourly_labor_charge": 165,
+          "is_active": true,
+          "is_deleted": false,
+          "created_at": "2024-12-12T12:45:34.000Z",
+          "updated_at": "2025-11-03T04:38:32.000Z",
+          "last_login_at": "2026-01-05T04:45:38.000Z",
+          "role": {
+            "role_id": 3,
+            "role_uid": "504e52bc-ff7d-11e7-8be5-0ed5f89f718b",
+            "role_name": "Field Executive",
+            "role_key": "FIELD_EXECUTIVE",
+            "created_at": "2018-01-22T00:00:00.000Z",
+            "updated_at": "2018-01-22T00:00:00.000Z"
+          },
+          "user_meta_data": {
+            "labor_type_uid": null,
+            "burden_rate": {
+              "type": "FIXED",
+              "value": 0
+            }
+          }
+        },
+        "created_at": "2026-01-19T13:04:59.054Z",
+        "synced_at": "2026-01-19T13:04:59.054Z",
+        "is_offline": false,
+        "updated_at": "2026-01-19T13:04:59.054Z",
+        "_id": "696e2bfb1a2a5f44fb35d7a8"
+      },
+      {
+        "status_history_uid": "0dc3f8d4-bd12-4576-a7dc-8e329f9c3114",
+        "status_uid": "3542fafe-0a95-44ae-bb40-6148a90276a5",
+        "status_name": "Job Completed",
+        "status_type": "COMPLETED",
+        "status_color": "#27ae60",
+        "remarks": "Urgent Work - See Comment",
+        "customer_signature_name": "Candice Moogan",
+        "customer_signature": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/353aea1f-aae8-4323-93c5-0cba5dc8ebe1.jpg",
+        "checklist": [],
+        "done_by": {
+          "user_uid": "c4fe3910-f2ca-4924-a926-38eafe4ce86c",
+          "first_name": "Dumida",
+          "last_name": "Goluwa Marakkalage",
+          "email": "Dumindatgbg@gmail.com",
+          "external_login_id": "tharargaduminda@gmail.com",
+          "home_phone_number": null,
+          "designation": "JGE Technician",
+          "emp_code": "Dumi",
+          "prefix": null,
+          "work_phone_number": "+971 52 241 0680",
+          "mobile_phone_number": "+971 52 241 0680",
+          "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/6aa3eb52-cf7c-4513-8dd8-9a19f7e3efba.jpeg",
+          "hourly_labor_charge": 165,
+          "is_active": true,
+          "is_deleted": false,
+          "created_at": "2024-12-12T12:45:34.000Z",
+          "updated_at": "2025-11-03T04:38:32.000Z",
+          "last_login_at": "2026-01-05T04:45:38.000Z",
+          "role": {
+            "role_id": 3,
+            "role_uid": "504e52bc-ff7d-11e7-8be5-0ed5f89f718b",
+            "role_name": "Field Executive",
+            "role_key": "FIELD_EXECUTIVE",
+            "created_at": "2018-01-22T00:00:00.000Z",
+            "updated_at": "2018-01-22T00:00:00.000Z"
+          },
+          "user_meta_data": {
+            "labor_type_uid": null,
+            "burden_rate": {
+              "type": "FIXED",
+              "value": 0
+            }
+          }
+        },
+        "created_at": "2026-01-19T13:05:09.272Z",
+        "synced_at": "2026-01-19T13:05:09.272Z",
+        "is_offline": false,
+        "updated_at": "2026-01-19T13:05:09.272Z",
+        "_id": "696e2c05e0f1ba3ae504eff0"
+      }
+    ],
+    "customer_address": {
+      "landmark": "",
+      "city": "Jumeirah Golf Estates",
+      "state": "Dubai",
+      "street": "88 Sanctuary Falls",
+      "country": "United Arab Emirates",
+      "zip_code": null,
+      "first_name": "Candice",
+      "last_name": "Moogan",
+      "phone_number": "(971)(52)758-7536",
+      "email": "service@golfbuggyguy.com"
+    },
+    "customer_billing_address": {
+      "landmark": "",
+      "city": "Dubai",
+      "state": "Dubai",
+      "street": "88 Sanctuary Falls",
+      "country": "United Arab Emirates",
+      "zip_code": null,
+      "first_name": "Candice",
+      "last_name": "Moogan",
+      "phone_number": "(971)(52)758-7536"
+    },
+    "custom_fields": [
+      {
+        "label": "Workshop Location",
+        "value": "Pitstop JGE",
+        "type": "SINGLE_ITEM",
+        "hide_to_fe": false,
+        "hide_field": false,
+        "read_only": false,
+        "_id": "696dbbadc228b2bf3cf3d8f1"
+      }
+    ],
+    "products": [],
+    "recurring_job": {
+      "recurring_job_uid": "c0e6b0f3-dc36-4937-8df3-041b8c076be7",
+      "duration": {
+        "value": 1,
+        "type": "YEARS"
+      },
+      "repeat_frequency": "MONTHLY",
+      "repeat_every": 2,
+      "repeat_on": {
+        "byweekday": [],
+        "bymonth": [],
+        "bymonthday": [
+          19
+        ]
+      },
+      "rrule": "FREQ=MONTHLY;INTERVAL=2;WKST=SU;BYMONTHDAY=19;DTSTART=20260119T050000;UNTIL=20270118T060000",
+      "customer_address": {
+        "landmark": "",
+        "city": "Jumeirah Golf Estates",
+        "state": "Dubai",
+        "street": "88 Sanctuary Falls",
+        "country": "United Arab Emirates",
+        "zip_code": null,
+        "first_name": "Candice",
+        "last_name": "Moogan",
+        "phone_number": "(971)(52)758-7536",
+        "email": "service@golfbuggyguy.com"
+      },
+      "customer_billing_address": {
+        "landmark": "",
+        "city": "Dubai",
+        "state": "Dubai",
+        "street": "88 Sanctuary Falls",
+        "country": "United Arab Emirates",
+        "zip_code": null,
+        "first_name": "Candice",
+        "last_name": "Moogan",
+        "phone_number": "(971)(52)758-7536"
+      },
+      "job_start": "2026-01-19T12:00:00.000Z",
+      "job_end": "2026-11-19T06:00:00.000Z",
+      "job_count": 6,
+      "created_by": 131209,
+      "is_deleted": false,
+      "created_at": "2026-01-19T05:04:58.422Z",
+      "updated_at": "2026-01-19T05:07:45.426Z"
+    },
+    "is_recurrence": true,
+    "hide_to_fe": false,
+    "hide_to_users": [],
+    "skills": [
+      {
+        "skill_uid": "70f3ff7b-aae8-42f5-90df-e420e8d02680",
+        "skill_name": "Tyre Repair & Wheel Changing",
+        "_id": "696dbbadc228b2bf3cf3d8f2"
+      },
+      {
+        "skill_uid": "2ead5422-4096-477b-9509-ac1d75979e12",
+        "skill_name": "AMC JGE",
+        "_id": "696dbbadc228b2bf3cf3d8f3"
+      }
+    ],
+    "invoice": {
+      "is_invoiced": false
+    },
+    "waiting_on_mr": false,
+    "waiting_on_mr_uids": [],
+    "material_request": {
+      "material_request_uids": []
+    },
+    "waiting_on_po": false,
+    "waiting_on_po_uids": [],
+    "purchase_order": {
+      "purchase_order_uids": []
+    },
+    "service_task": {
+      "is_enabled": false,
+      "execution_type": "PARALLEL"
+    },
+    "secondary_customers": [],
+    "created_by": {
+      "user_uid": "c2f394f8-b5fc-4da5-9f5c-8c13c6574cb7",
+      "first_name": "Elizabeth",
+      "last_name": "Santos",
+      "email": "e.santos@golfbuggyguy.com",
+      "external_login_id": null,
+      "home_phone_number": null,
+      "designation": "JGE AMC Customer Service",
+      "emp_code": "CS",
+      "prefix": null,
+      "work_phone_number": "+971 50 194 5103",
+      "mobile_phone_number": "+971 50 194 5103",
+      "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/assets/profile_picture.jpg",
+      "hourly_labor_charge": null,
+      "is_active": true,
+      "is_deleted": false,
+      "created_at": "2025-12-20T11:29:24.000Z",
+      "updated_at": "2025-12-31T08:21:47.000Z",
+      "last_login_at": "2026-01-20T05:16:03.000Z",
+      "role": {
+        "role_id": 1,
+        "role_uid": "504e4eac-ff7d-11e7-8be5-0ed5f89f718b",
+        "role_name": "Admin",
+        "role_key": "ADMIN",
+        "created_at": "2018-01-22T00:00:00.000Z",
+        "updated_at": "2018-01-22T00:00:00.000Z"
+      },
+      "user_meta_data": {
+        "labor_type_uid": null,
+        "burden_rate": null
+      }
+    },
+    "is_deleted": false,
+    "details_url": "https://ap-south-1.zuperpro.com/api/customer_portal/jobs?company_uid=a5dee8af-9576-4a74-9a1c-382ccbeb9262&job_uid=092c2f81-b125-4fd3-8d74-fdaade1c7386",
+    "feedback_url": "https://ap-south-1.zuperpro.com/api/customer_portal/feedback?company_uid=a5dee8af-9576-4a74-9a1c-382ccbeb9262&job_uid=092c2f81-b125-4fd3-8d74-fdaade1c7386",
+    "child_jobs": [
+      "b515a347-302f-4123-85af-a6b1658c6680"
+    ],
+    "job_timezone": null,
+    "service_territory": {
+      "is_conflict": true,
+      "conflicts": [
+        "NO_TERRITORY_FOUND"
+      ]
+    },
+    "profitability": {
+      "price": {
+        "parts": 0,
+        "labor": 0,
+        "expense": 0
+      },
+      "cost": {
+        "parts": 0,
+        "labor": 0,
+        "expense": 0,
+        "parts_percentage": 0,
+        "labor_percentage": 0,
+        "expense_percentage": 0
+      },
+      "calculate_job_revenue_from": "JOB_LINE_ITEMS"
+    },
+    "job_total": 0,
+    "discount": {
+      "discount_applicability": "TRANSACTION"
+    },
+    "associations": {
+      "notes": 0,
+      "total_service_tasks": 0,
+      "pending_service_tasks": 0
+    },
+    "assets": [
+      {
+        "asset": {
+          "asset_uid": "68bed345-2e77-4a4c-87fb-85a307293f0f",
+          "asset_code": "01463",
+          "asset_name": "CCP US Buggy",
+          "asset_image": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/attachments/a5dee8af-9576-4a74-9a1c-382ccbeb9262/539cc138-6a2f-486a-b035-a9caf62bf000.jpg",
+          "asset_category": {
+            "is_deleted": false,
+            "category_name": "Residential",
+            "category_uid": "7047c510-dfd2-11eb-862d-3bb4d763d8cc"
+          },
+          "asset_inspection_form": null,
+          "asset_status": "",
+          "asset_serial_number": "JE1410-444254",
+          "asset_quantity": 1,
+          "custom_fields": [
+            {
+              "label": "JGE Rental Number",
+              "value": "",
+              "type": "SINGLE_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699d9c"
+            },
+            {
+              "label": "Community Registration Number",
+              "value": "",
+              "type": "SINGLE_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699d9d"
+            },
+            {
+              "label": "JGE Registration Doc",
+              "value": "",
+              "type": "FILE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699d9e"
+            },
+            {
+              "label": "AMC Expiry",
+              "value": "",
+              "type": "DATE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699d9f"
+            },
+            {
+              "label": "JGE Registration Expiry",
+              "value": "",
+              "type": "DATETIME",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699da0"
+            },
+            {
+              "label": "GPS Ref Number",
+              "value": "",
+              "type": "SINGLE_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699da1"
+            },
+            {
+              "label": "GPS IOT Picture",
+              "value": "",
+              "type": "FILE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699da2"
+            },
+            {
+              "label": "Insurance Ref",
+              "value": "",
+              "type": "SINGLE_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699da3"
+            },
+            {
+              "label": "RFiD Code",
+              "value": "",
+              "type": "SINGLE_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699da4"
+            },
+            {
+              "label": "Cart Ignition Code",
+              "value": "",
+              "type": "SINGLE_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699da5"
+            },
+            {
+              "label": "Battery Manufacturer",
+              "value": "",
+              "type": "SINGLE_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699da6"
+            },
+            {
+              "label": "Battery Type",
+              "value": "",
+              "type": "SINGLE_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699da7"
+            },
+            {
+              "label": "Battery Serial No.",
+              "value": "",
+              "type": "SINGLE_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699da8"
+            },
+            {
+              "label": "Motor Serial Number",
+              "value": "",
+              "type": "SINGLE_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699da9"
+            },
+            {
+              "label": "Controller Serial No.",
+              "value": "",
+              "type": "SINGLE_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699daa"
+            },
+            {
+              "label": "Notes/Comments",
+              "value": "",
+              "type": "MULTI_LINE",
+              "hide_to_fe": false,
+              "hide_field": false,
+              "read_only": false,
+              "_id": "696f3ba31a5a08cc3a699dab"
+            }
+          ],
+          "is_deleted": false,
+          "is_active": true,
+          "created_at": "2026-01-20T08:24:03.217Z",
+          "updated_at": "2026-01-20T08:24:03.218Z"
+        },
+        "remarks": "",
+        "asset_inspection_form_submission_uid": null
+      }
+    ],
+    "attachments": [],
+    "labor_items": [],
+    "created_at": "2026-01-19T05:05:49.156Z",
+    "updated_at": "2026-01-19T13:05:09.272Z",
+    "external_id": {
+      "hubspot_ticket": "",
+      "hubspot_deal": ""
+    },
+    "work_order_number": 32659,
+    "route": null,
+    "actual_duration": 67,
+    "actual_end_time": "2026-01-19T13:05:09.272Z",
+    "actual_start_time": "2026-01-19T11:58:05.365Z",
+    "job_feedback": {
+      "rating": "NEUTRAL",
+      "message": ""
+    },
+    "checklist": []
+  }
+}

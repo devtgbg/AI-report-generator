@@ -1,0 +1,642 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    * {
+        font-size: 12px;
+        font-family: Roboto, sans-serif;
+    }
+
+    body {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        height: auto;
+        width: auto;
+    }
+
+    table {
+        break-inside: avoid;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+        border-top-width: initial !important;
+        border-right-width: initial !important;
+        border-bottom-width: initial !important;
+        border-left-width: initial !important;
+        border-top-style: none !important;
+        border-right-style: none !important;
+        border-bottom-style: none !important;
+        border-left-style: none !important;
+        border-top-color: initial !important;
+        border-right-color: initial !important;
+        border-bottom-color: initial !important;
+        border-left-color: initial !important;
+        border-image-source: initial !important;
+        border-image-slice: initial !important;
+        border-image-width: initial !important;
+        border-image-outset: initial !important;
+        border-image-repeat: initial !important;
+        border-collapse: collapse;
+    }
+
+    tr,
+    th,
+    td {
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: black;
+        border-right-color: black;
+        border-bottom-color: black;
+        border-left-color: black;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-collapse: collapse;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-row-group;
+    }
+
+    tr {
+        break-inside: avoid;
+        break-before: avoid;
+    }
+
+    body.A3 .sheet {
+        width: 297mm;
+        height: 419mm;
+    }
+
+    body.A3.landscape .sheet {
+        width: 420mm;
+        height: 296mm;
+    }
+
+    body.A4 .sheet {
+        width: 210mm;
+        min-height: 296mm;
+    }
+
+    body.A4.landscape .sheet {
+        width: 297mm;
+        height: 209mm;
+    }
+
+    body.A5 .sheet {
+        width: 148mm;
+        height: 209mm;
+    }
+
+    body.A5.landscape .sheet {
+        width: 210mm;
+        height: 147mm;
+    }
+
+    body.letter .sheet {
+        width: 216mm;
+        height: 279mm;
+    }
+
+    body.letter.landscape .sheet {
+        width: 280mm;
+        height: 215mm;
+    }
+
+    body.legal .sheet {
+        width: 216mm;
+        height: 356mm;
+    }
+
+    body.legal.landscape .sheet {
+        width: 357mm;
+        height: 215mm;
+    }
+
+    div.height {
+        height: 150px;
+    }
+
+    .br_ln td {
+        border-top-width: 1px !important;
+        border-right-width: 1px !important;
+        border-bottom-width: 1px !important;
+        border-left-width: 1px !important;
+        border-top-style: solid !important;
+        border-right-style: solid !important;
+        border-bottom-style: solid !important;
+        border-left-style: solid !important;
+        border-top-color: rgb(167, 167, 167) !important;
+        border-right-color: rgb(167, 167, 167) !important;
+        border-bottom-color: rgb(167, 167, 167) !important;
+        border-left-color: rgb(167, 167, 167) !important;
+        border-image-source: initial !important;
+        border-image-slice: initial !important;
+        border-image-width: initial !important;
+        border-image-outset: initial !important;
+        border-image-repeat: initial !important;
+    }
+
+    td {
+        vertical-align: top;
+    }
+
+    #i0hu {
+        width: 100%;
+    }
+
+    #ijqc3 {
+        margin-top: 1%;
+    }
+
+    #itlbl {
+        width: 100%;
+    }
+
+    #ilqx9 {
+        width: 50%;
+    }
+
+    #iwipz {
+        width: 50%;
+    }
+
+    #izpe2 {
+        width: 50%;
+    }
+
+    #iv9jf {
+        width: 50%;
+    }
+
+    #i32k4 {
+        text-align: center;
+    }
+
+    #ilwzh {
+        text-align: center;
+    }
+
+    #i0l53 {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #ir6p4 {
+        width: 400px;
+        height: 350px;
+    }
+
+    #ietpk {
+        width: 100%;
+        margin-top: 2%;
+        page-break-inside: avoid;
+    }
+
+    #ijiuf {
+        page-break-inside: avoid;
+    }
+
+    #ihbqr {
+        width: 100%;
+        margin-top: 1%;
+        page-break-inside: avoid;
+    }
+
+    #i3w6i {
+        page-break-inside: avoid;
+    }
+
+    #iqkju {
+        page-break-inside: avoid;
+    }
+
+    #ik3b4 {
+        width: 50%;
+    }
+
+    #i4b4p {
+        font-weight: bold;
+    }
+
+    #i9jgp {
+        width: 50%;
+    }
+
+    #ijvx2 {
+        font-weight: bold;
+    }
+
+    #i3flj {
+        page-break-inside: avoid;
+    }
+
+    #iqi6t {
+        width: 50%;
+    }
+
+    #igamj {
+        width: 200px;
+        height: 266px;
+    }
+
+    #ilf2i {
+        width: 50%;
+    }
+
+    #i1z8s {
+        width: 200px;
+        height: 266px;
+    }
+
+    #ih2ha {
+        width: 100%;
+        page-break-inside: avoid;
+    }
+
+    #ii6cg {
+        page-break-inside: avoid;
+    }
+
+    #ilb0a {
+        width: 50%;
+    }
+
+    #ia8xp {
+        font-weight: bold;
+    }
+
+    #ioir6 {
+        width: 50%;
+    }
+
+    #iym86 {
+        font-weight: bold;
+    }
+
+    #ixwltg {
+        page-break-inside: avoid;
+    }
+
+    #i5f88e {
+        width: 50%;
+    }
+
+    #igqe9i {
+        width: 200px;
+        height: 266px;
+    }
+
+    #idiyio {
+        width: 50%;
+    }
+
+    #i9noky {
+        width: 200px;
+        height: 266px;
+    }
+
+    #itdrhk {
+        page-break-inside: avoid;
+        margin-top: 1%;
+    }
+
+    #ie1wxb {
+        page-break-inside: avoid;
+    }
+
+    #iz9m1r {
+        page-break-inside: avoid;
+    }
+
+    #iectwx {
+        page-break-inside: avoid;
+    }
+
+    #i3s618 {
+        page-break-inside: avoid;
+    }
+
+    #iefdlx {
+        page-break-inside: avoid;
+    }
+
+    #ilv9fk {
+        text-align: center;
+    }
+
+    #isp8sk {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #i7bnrr {
+        width: 500px;
+        height: 300px;
+    }
+
+    #id08l8 {
+        border: none;
+    }
+
+    #i4hlus {
+        border: none;
+    }
+
+    #is78e8 {
+        border: none;
+    }
+
+    #iycgfh {
+        box-sizing: border-box;
+        color: black;
+        width: 175px;
+        height: 75px;
+        margin: 3px 0 6px 6px;
+        padding: 3px 1px 0 8px;
+    }
+
+    #iod2vs {
+        font-weight: bold;
+        margin: 3px 0 6px 10px;
+    }
+
+    #pageFooter {
+        text-align: center;
+    }
+
+    @page {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    @page {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    @media screen {
+        body {
+            background-image: initial;
+            background-position-x: initial;
+            background-position-y: initial;
+            background-size: initial;
+            background-repeat: initial;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: rgb(224, 224, 224);
+        }
+    }
+
+    @media print {
+        body.A3.landscape {
+            width: 420mm;
+        }
+
+        body.A3,
+        body.A4.landscape {
+            width: 297mm;
+        }
+
+        body.A4,
+        body.A5.landscape {
+            width: 210mm;
+        }
+
+        body.A5 {
+            width: 148mm;
+        }
+
+        body.letter,
+        body.legal {
+            width: 216mm;
+        }
+
+        body.letter.landscape {
+            width: 280mm;
+        }
+
+        body.legal.landscape {
+            width: 357mm;
+        }
+    }
+</style>
+<meta charset="utf-8" />
+<title>Site Survey Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+<div id="pageHeader"><img
+        src="https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/d72d9c81-ce36-4c62-8242-e5a67cfef34f/c7b35920-4be0-11ec-9a6f-abaf31593900.png"
+        alt="https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/d72d9c81-ce36-4c62-8242-e5a67cfef34f/c7b35920-4be0-11ec-9a6f-abaf31593900.png"
+        id="i0hu" />
+</div>
+<div id="ijqc3">
+
+    {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Started"}}
+
+    {{/stringEq}}{{/eachLastInstance}}
+
+    {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Pre Start Risk Assessment"}}
+    {{#each checklist}}
+
+    {{/each}}
+    {{/stringEq}}{{/eachLastInstance}}
+    <table id="itlbl">
+        <tbody>
+            <tr>
+                <td id="ilqx9"><b>Customer Name</b> - {{customer.customer_first_name}} {{customer.customer_last_name}}
+                </td>
+                <td id="iwipz"><b>Date & time</b> - {{#if scheduled_start_time}} {{formatDateWithTimeZone
+                    scheduled_start_time "DD-MM-YY hh:mm A" timezone}} {{else}} {{formatDateWithTimeZone due_date
+                    "DD-MM-YY" timezone}} {{/if}}</td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Customer Address</b> - {{customer_billing_address.street}},
+                    {{customer_billing_address.state}}, {{customer.customer_contact_no.mobile}}</td>
+            </tr>
+            <tr>
+                <td id="izpe2"><b>Job Ref</b> - {{work_order_number}}</td>
+                <td id="iv9jf"><b>Technicians</b> – {{#each assigned_to}} {{user.first_name}} {{user.last_name}},
+                    {{/each}}</td>
+            </tr>
+            <tr>
+                <td><b>EV Serial Number</b> - {{#each checklist}}{{#stringEqStrict question "EV Serial
+                    Number"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+                <td><b>EV Model Number</b> - {{#each checklist}}{{#stringEqStrict question "EV Model
+                    Number"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td colspan="2" id="i32k4"><b>Pre Start Risk Assessment</b></td>
+            </tr>
+            <tr>
+                <td><b>{{question}}</b></td>
+                <td>{{answer}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="ilwzh">
+        {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Started"}}
+        {{#each checklist}}{{#stringEqStrict question "Chassis Plate Picture:"}}
+        <p id="i0l53">Chassis Plate Picture</p><img src="{{answer}}" id="ir6p4" />
+        {{/stringEqStrict}}{{/each}}
+        {{/stringEq}}{{/eachLastInstance}}
+    </div>
+
+    {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Started"}}
+
+    <table id="ietpk">
+        <tbody>
+            <tr id="ijiuf">
+                <td colspan="2"><b>Wheels and Tyres</b> - {{#each checklist}}{{#stringEqStrict question "Wheels and
+                    Tyres"}}{{answer}}{{/stringEqStrict}}{{/each}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="ihbqr">
+        <tbody>
+            <tr id="i3w6i">
+                <!-- <td colspan="2">
+                  <b>Wheels and Tyres</b> - {{#each checklist}}{{#stringEqStrict question "Wheels and Tyres"}}{{answer}}{{/stringEqStrict}}{{/each}}
+               </td> -->
+            </tr>
+            <tr id="iqkju">
+                <td id="ik3b4">
+                    <center id="i4b4p">Driver Side Front Wheel</center>
+                </td>
+                <td id="i9jgp">
+                    <center id="ijvx2">Drivers Side Rear Wheel</center>
+                </td>
+            </tr>
+            <tr id="i3flj">
+                <td id="iqi6t">
+                    {{#each checklist}} {{#stringEq question "Driver Side Front Wheel"}}
+                    <center><img src="{{answer}}" id="igamj" /></center>
+                    {{/stringEq}} {{/each}}
+                </td>
+                <td id="ilf2i">
+                    {{#each checklist}} {{#stringEq question "Drivers Side Rear Wheel"}}
+                    <center><img src="{{answer}}" id="i1z8s" /></center>
+                    {{/stringEq}} {{/each}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="ih2ha">
+        <tbody>
+            <tr id="ii6cg">
+                <td id="ilb0a">
+                    <center id="ia8xp">Passenger Side Front Wheel</center>
+                </td>
+                <td id="ioir6">
+                    <center id="iym86">Passenger Side Rear Wheel</center>
+                </td>
+            </tr>
+            <tr id="ixwltg">
+                <td id="i5f88e">
+                    {{#each checklist}} {{#stringEq question "Passenger Side Front Wheel"}}
+                    <center><img src="{{answer}}" id="igqe9i" /></center>
+                    {{/stringEq}} {{/each}}
+                </td>
+                <td id="idiyio">
+                    {{#each checklist}} {{#stringEq question "Passenger Side Rear Wheel"}}
+                    <center><img src="{{answer}}" id="i9noky" /></center>
+                    {{/stringEq}} {{/each}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    {{/stringEq}}{{/eachLastInstance}}
+
+    {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Started"}}
+    <table id="itdrhk">
+        <tbody>
+            <tr id="ie1wxb">
+                <td colspan="2"><b>Body Work</b> - {{#each checklist}} {{#stringEqStrict question "Body Work"}}
+                    {{answer}} {{/stringEqStrict}} {{/each}}
+                </td>
+            </tr>
+            <tr id="iz9m1r">
+                <td colspan="2">
+                    <blights< b=""> - {{#each checklist}} {{#stringEqStrict question "Lights"}} {{answer}}
+                        {{/stringEqStrict}} {{/each}}
+                    </blights<>
+                </td>
+            </tr>
+            <tr id="iectwx">
+                <td colspan="2"><b>Battery Box</b> - {{#each checklist}} {{#stringEqStrict question "Battery Box"}}
+                    {{answer}} {{/stringEqStrict}} {{/each}}
+                </td>
+            </tr>
+            <tr id="i3s618">
+                <td colspan="2"><b>Brakes</b> - {{#each checklist}} {{#stringEqStrict question "Brakes"}} {{answer}}
+                    {{/stringEqStrict}} {{/each}}
+                </td>
+            </tr>
+            <tr id="iefdlx">
+                <td colspan="2"><b>Test Drive</b> - {{#each checklist}} {{#stringEqStrict question "Test Drive"}}
+                    {{answer}} {{/stringEqStrict}} {{/each}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    {{/stringEq}}{{/eachLastInstance}}
+    <div id="ilv9fk">
+        {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Started"}}
+        <p id="isp8sk">Body Work Pictures</p>
+        {{#each checklist}}{{#stringEqStrict question "Bodywork Pictures"}}
+        {{#split answer ","}}
+        <img src="{{this}}" id="i7bnrr" />
+        {{/split}}
+        {{/stringEqStrict}}{{/each}}
+        {{/stringEq}}{{/eachLastInstance}}
+    </div>
+    <table id="id08l8">
+        <tbody>
+            <tr id="i4hlus">
+                <td id="is78e8">
+                    <div>
+                        {{#eachLastInstance job_status "status_name"}}
+                        {{#stringEq status_name "Workshop Complete"}}
+                        <img src="{{customer_signature}}" id="iycgfh" />
+                        <p id="iod2vs">Customer Signature</p>
+                        {{/stringEq}}
+                        {{/eachLastInstance}}
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div id="pageFooter"><a href="https://zuper.co/"></a></div>

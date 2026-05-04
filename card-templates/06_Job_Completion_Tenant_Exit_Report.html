@@ -1,0 +1,1368 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    * {
+        font-size: 12px;
+        font-family: Roboto, sans-serif;
+    }
+
+    body {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        height: auto;
+        width: auto;
+    }
+
+    table {
+        break-inside: avoid;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+        border-top-width: initial !important;
+        border-right-width: initial !important;
+        border-bottom-width: initial !important;
+        border-left-width: initial !important;
+        border-top-style: none !important;
+        border-right-style: none !important;
+        border-bottom-style: none !important;
+        border-left-style: none !important;
+        border-top-color: initial !important;
+        border-right-color: initial !important;
+        border-bottom-color: initial !important;
+        border-left-color: initial !important;
+        border-image-source: initial !important;
+        border-image-slice: initial !important;
+        border-image-width: initial !important;
+        border-image-outset: initial !important;
+        border-image-repeat: initial !important;
+        border-collapse: collapse;
+    }
+
+    tr,
+    th,
+    td {
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: black;
+        border-right-color: black;
+        border-bottom-color: black;
+        border-left-color: black;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-collapse: collapse;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-row-group;
+    }
+
+    tr {
+        break-inside: avoid;
+        break-before: avoid;
+    }
+
+    #ikep {
+        width: 100%;
+    }
+
+    #ihfhi {
+        margin-top: 1%;
+    }
+
+    #iscdk {
+        width: 100%;
+    }
+
+    #iyhpz {
+        width: 50%;
+    }
+
+    #icyfn {
+        width: 50%;
+    }
+
+    #i5ddb {
+        width: 50%;
+    }
+
+    #ifbii {
+        width: 50%;
+    }
+
+    #i56n6 {
+        text-align: center;
+    }
+
+    #i6yjz {
+        width: 100%;
+        margin-top: 1%;
+    }
+
+    #i0o11 {
+        width: 50%;
+        text-align: center;
+    }
+
+    #iae4a {
+        width: 100%;
+    }
+
+    #igi7f {
+        width: 30%;
+        font-weight: bold;
+    }
+
+    #i9tsf {
+        width: 20%;
+        font-weight: bold;
+    }
+
+    #if8tn {
+        width: 25%;
+        font-weight: bold;
+    }
+
+    #ie424 {
+        width: 25%;
+        font-weight: bold;
+    }
+
+    #igjhe {
+        text-align: center !important;
+    }
+
+    #i3mpt {
+        text-align: center !important;
+    }
+
+    #i0ryg {
+        text-align: center !important;
+    }
+
+    #ix9dh {
+        text-align: center !important;
+    }
+
+    #i0oq7 {
+        text-align: center !important;
+    }
+
+    #i6gq1 {
+        text-align: center !important;
+    }
+
+    #imqhk {
+        text-align: center !important;
+    }
+
+    #iu0zn {
+        text-align: center !important;
+    }
+
+    #iju3i {
+        text-align: center !important;
+    }
+
+    #ih8ji {
+        text-align: center !important;
+    }
+
+    #i7kr6 {
+        text-align: center !important;
+    }
+
+    #ivl9o {
+        text-align: center !important;
+    }
+
+    #in1pze {
+        text-align: center !important;
+    }
+
+    #imhm69 {
+        text-align: center !important;
+    }
+
+    #ikvrse {
+        text-align: center !important;
+    }
+
+    #ig4vji {
+        text-align: center !important;
+    }
+
+    #iq9ejt {
+        text-align: center !important;
+    }
+
+    #irnuld {
+        text-align: center !important;
+    }
+
+    #ihoq8x {
+        text-align: center !important;
+    }
+
+    #iyfu2z {
+        text-align: center !important;
+    }
+
+    #i450ht {
+        text-align: center !important;
+    }
+
+    #ingipl {
+        text-align: center !important;
+    }
+
+    #is9wr5 {
+        text-align: center !important;
+    }
+
+    #ilaxuy {
+        text-align: center !important;
+    }
+
+    #ipo1u5 {
+        text-align: center !important;
+    }
+
+    #i3aa23 {
+        text-align: center !important;
+    }
+
+    #ihw0bt {
+        text-align: center !important;
+    }
+
+    #itt77e {
+        text-align: center !important;
+    }
+
+    #ix8g58 {
+        text-align: center !important;
+    }
+
+    #iuh1g9 {
+        text-align: center !important;
+    }
+
+    #i7a4qy {
+        text-align: center !important;
+    }
+
+    #izjiij {
+        text-align: center !important;
+    }
+
+    #iebksg {
+        width: 100%;
+        margin-top: -1px;
+    }
+
+    #igmqyz {
+        width: 50%;
+    }
+
+    #il6yx2 {
+        width: 50%;
+    }
+
+    #i77o1j {
+        width: 50%;
+    }
+
+    #igv4jt {
+        width: 50%;
+    }
+
+    #iztivd {
+        width: 50%;
+    }
+
+    #igppsk {
+        text-align: center;
+    }
+
+    #it88n3 {
+        width: 400px;
+        height: 380px;
+    }
+
+    #i73o5l {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #immgmh {
+        text-align: center;
+    }
+
+    #iztyf7 {
+        width: 400px;
+        height: 380px;
+    }
+
+    #iqf5ao {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #ixuzd8 {
+        width: 100%;
+        margin-top: 1%;
+    }
+
+    #i0uqjp {
+        text-align: center;
+    }
+
+    #iuyaig {
+        width: 50%;
+    }
+
+    #iqu5il {
+        width: 50%;
+    }
+
+    #irgzuh {
+        width: 50%;
+    }
+
+    #ip26nb {
+        width: 50%;
+    }
+
+    #i9cdl5 {
+        width: 50%;
+    }
+
+    #ikj86u {
+        width: 50%;
+    }
+
+    #iltw7g {
+        width: 50%;
+    }
+
+    #ikwnnd {
+        width: 50%;
+    }
+
+    #iojfta {
+        width: 50%;
+    }
+
+    #iubk2k {
+        width: 50%;
+    }
+
+    #i139rn {
+        width: 50%;
+    }
+
+    #iu9zzj {
+        width: 50%;
+    }
+
+    #ijgxqw {
+        width: 50%;
+    }
+
+    #i2xkix {
+        width: 50%;
+    }
+
+    #idl6ij {
+        width: 50%;
+    }
+
+    #i7uw3q {
+        width: 50%;
+    }
+
+    #iyyape {
+        width: 50%;
+    }
+
+    #imsg29 {
+        width: 50%;
+    }
+
+    #inqrr5 {
+        width: 50%;
+    }
+
+    #ikd82v {
+        width: 50%;
+    }
+
+    #i9cmwk {
+        width: 50%;
+    }
+
+    #imohvn {
+        width: 50%;
+    }
+
+    #i678fd {
+        width: 50%;
+    }
+
+    #ilodvg {
+        width: 50%;
+    }
+
+    #i2zhzj {
+        width: 50%;
+    }
+
+    #iyfbvi {
+        width: 50%;
+    }
+
+    #i2bp9g {
+        width: 50%;
+    }
+
+    #in9c8a {
+        width: 50%;
+    }
+
+    #i8xkjf {
+        width: 50%;
+    }
+
+    #iudrtm {
+        width: 50%;
+    }
+
+    #i5ugtl {
+        width: 50%;
+    }
+
+    #isavwm {
+        width: 50%;
+    }
+
+    #i4fyav {
+        width: 50%;
+    }
+
+    #im5vbx {
+        width: 50%;
+    }
+
+    #ih6g3j {
+        width: 50%;
+    }
+
+    #iv7hqq {
+        width: 50%;
+    }
+
+    #iwc9pi {
+        width: 50%;
+    }
+
+    #iiwl3x {
+        width: 50%;
+    }
+
+    #iy6duq {
+        text-align: center;
+    }
+
+    #i1tbog {
+        width: 400px;
+        height: 380px;
+    }
+
+    #ixtl5z {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #iaoj1f {
+        text-align: center;
+    }
+
+    #isup0w {
+        width: 400px;
+        height: 380px;
+    }
+
+    #i7zosi {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #inyraz {
+        text-align: center;
+    }
+
+    #i2e5ol {
+        width: 400px;
+        height: 380px;
+    }
+
+    #ivs1c8 {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #ilzamt {
+        text-align: center;
+    }
+
+    #iqq3j5 {
+        width: 400px;
+        height: 380px;
+    }
+
+    #i09gog {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #i33ard {
+        text-align: center;
+    }
+
+    #ifcv79 {
+        width: 400px;
+        height: 380px;
+    }
+
+    #igqi1y {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #iwwxwm {
+        text-align: center;
+    }
+
+    #i3i85w {
+        width: 400px;
+        height: 380px;
+    }
+
+    #ilgfyg {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #icc8fj {
+        text-align: center;
+    }
+
+    #ir4cmp {
+        width: 400px;
+        height: 380px;
+    }
+
+    #iwv8wo {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #iruwbw {
+        text-align: center;
+    }
+
+    #i8pvqr {
+        width: 400px;
+        height: 380px;
+    }
+
+    #ik3v5f {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #i48rf9 {
+        text-align: center;
+    }
+
+    #inlxaz {
+        width: 400px;
+        height: 380px;
+    }
+
+    #ipv7hv {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #ic5bsw {
+        text-align: center;
+    }
+
+    #iba0gp {
+        width: 400px;
+        height: 380px;
+    }
+
+    #i0vjmj {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #i6jq18 {
+        text-align: center;
+    }
+
+    #i8320k {
+        width: 400px;
+        height: 380px;
+    }
+
+    #i7jv2b {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #inya35 {
+        text-align: center;
+    }
+
+    #ih25m4 {
+        width: 400px;
+        height: 380px;
+    }
+
+    #ip1v3l {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #ivuvdi {
+        text-align: center;
+    }
+
+    #imehpz {
+        width: 400px;
+        height: 380px;
+    }
+
+    #i8pqk7 {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #iqchfr {
+        text-align: center;
+    }
+
+    #iu5twv {
+        width: 400px;
+        height: 380px;
+    }
+
+    #ixjrsb {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #idlwug {
+        text-align: center;
+    }
+
+    #ioqtrl {
+        width: 400px;
+        height: 380px;
+    }
+
+    #ij5xfb {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #i5bf1h {
+        text-align: center;
+    }
+
+    #i3ym9c {
+        width: 400px;
+        height: 380px;
+    }
+
+    #ie5qqj {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #ixkkwg {
+        text-align: center;
+    }
+
+    #ifmi3c {
+        width: 400px;
+        height: 380px;
+    }
+
+    #i5vdpi {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #iikdin {
+        text-align: center;
+    }
+
+    #i4uh0l {
+        width: 400px;
+        height: 380px;
+    }
+
+    #i21jx4 {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #ii5v2m {
+        text-align: center;
+    }
+
+    #icc2es {
+        width: 400px;
+        height: 380px;
+    }
+
+    #i5kz74 {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #i3zbi6 {
+        text-align: center;
+    }
+
+    #i82sgr {
+        width: 400px;
+        height: 380px;
+    }
+
+    #i1kn0q {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #i0u2pk {
+        text-align: center;
+    }
+
+    #ixvzok {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #ijbhh3 {
+        width: 500px;
+        height: 300px;
+    }
+
+    #i738bd {
+        box-sizing: border-box;
+        color: black;
+        width: 175px;
+        height: 75px;
+        margin: 3px 0 6px 6px;
+        padding: 3px 1px 0 8px;
+    }
+
+    #ivalei {
+        font-weight: bold;
+    }
+
+    #pageFooter {
+        text-align: center;
+    }
+
+    #i4d0ko {
+        width: 200px;
+    }
+</style>
+<meta charset="utf-8" />
+<title>Site Survey Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+<div id="pageHeader"><img
+        src="https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/d72d9c81-ce36-4c62-8242-e5a67cfef34f/cd39ef40-4b6c-11ec-a4e4-5bb78aa0e604.png"
+        alt="https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/d72d9c81-ce36-4c62-8242-e5a67cfef34f/cd39ef40-4b6c-11ec-a4e4-5bb78aa0e604.png"
+        id="ikep" /></div>
+<div id="ihfhi">
+
+    {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Pre Start Risk Assessment"}}
+
+    {{#each checklist}}
+
+    {{/each}}
+    {{/stringEq}}{{/eachLastInstance}}
+    <table id="iscdk">
+        <tbody>
+            <tr>
+                <td id="iyhpz"><b>Customer Name</b> - {{customer.customer_first_name}} {{customer.customer_last_name}}
+                </td>
+                <td id="icyfn"><b>Date & time</b> - {{#if scheduled_start_time}} {{formatDateWithTimeZone
+                    scheduled_start_time "DD-MM-YY hh:mm A" timezone}} {{else}} {{formatDateWithTimeZone due_date
+                    "DD-MM-YY" timezone}} {{/if}}</td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Customer Address</b> - {{customer_billing_address.street}},
+                    {{customer_billing_address.state}}, {{customer.customer_contact_no.mobile}}</td>
+            </tr>
+            <tr>
+                <td id="i5ddb"><b>Job Ref</b> - {{work_order_number}}</td>
+                <td id="ifbii"><b>Technicians</b> – {{#each assigned_to}} {{user.first_name}} {{user.last_name}},
+                    {{/each}}</td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Buggy Serial Number</b> - {{#eachLastInstance job_status "status_name"}}{{#stringEq
+                    status_name "Started"}}{{#each checklist}}{{#stringEqStrict question "Buggy Serial
+                    Number:"}}{{answer}}{{/stringEqStrict}}{{/each}}{{/stringEq}}{{/eachLastInstance}}</td>
+            </tr>
+            <tr>
+                <td colspan="2" id="i56n6"><b>Pre Start Risk Assessment</b></td>
+            </tr>
+            <tr>
+                <td><b>{{question}}</b></td>
+                <td>{{answer}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    {{#eachLastInstance job_status "status_name"}} {{#stringEq status_name "Started"}}
+
+    {{#each checklist}}
+    {{#stringEqStrict question "Are batteries 5 & 6 Installed"}}
+    {{#stringEqStrict answer "Yes"}}
+
+    {{/stringEqStrict}}
+    {{/stringEqStrict}}
+    {{/each}}
+
+    {{#each checklist}}
+    {{#stringEqStrict question "Are batteries 7 & 8 Installed"}}
+    {{#stringEqStrict answer "Yes"}}
+
+    {{/stringEqStrict}}
+    {{/stringEqStrict}}
+    {{/each}}
+
+    {{/stringEq}}{{/eachLastInstance}}
+    <table id="i6yjz">
+        <tbody>
+            <tr>
+                <td colspan="4" id="i0o11"><b>Battery Report</b></td>
+            </tr>
+            <tr>
+                <td colspan="4" id="iae4a"><b>Battery Pack Setup</b> – {{#eachLastInstance job_status "status_name"}}
+                    {{#stringEq status_name "Started"}}{{#each checklist}}{{#stringEqStrict question "Battery Pack
+                    Setup"}}{{answer}}{{/stringEqStrict}}{{/each}}{{/stringEq}}{{/eachLastInstance}}
+                </td>
+            </tr>
+            <tr>
+                <th id="igi7f">Battery</th>
+                <th id="i9tsf">Voltage</th>
+                <th id="if8tn">State of Charge</th>
+                <th id="ie424">State of Health</th>
+            </tr>
+            <tr>
+                <td id="igjhe">Battery 1</td>
+                <td id="i3mpt">{{#each checklist}}{{#stringEqStrict question "Battery 1 Voltage"}} {{#if answer}}
+                    {{answer}} {{else}} Not applicable {{/if}} {{/stringEqStrict}}{{/each}}</td>
+                <td id="i0ryg">{{#each checklist}}{{#stringEqStrict question "Battery 1 State of Charge"}} {{#if
+                    answer}} {{answer}} {{else}} Not applicable {{/if}} {{/stringEqStrict}}{{/each}}</td>
+                <td id="ix9dh">{{#each checklist}}{{#stringEqStrict question "Battery 1 State of Health"}} {{#if
+                    answer}} {{answer}} {{else}} Not applicable {{/if}} {{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="i0oq7">Battery 2</td>
+                <td id="i6gq1">{{#each checklist}}{{#stringEqStrict question "Battery 2 Voltage"}} {{#if answer}}
+                    {{answer}} {{else}} Not applicable {{/if}} {{/stringEqStrict}}{{/each}}</td>
+                <td id="imqhk">{{#each checklist}}{{#stringEqStrict question "Battery 2 State of Charge"}} {{#if
+                    answer}} {{answer}} {{else}} Not applicable {{/if}} {{/stringEqStrict}}{{/each}}</td>
+                <td id="iu0zn">{{#each checklist}}{{#stringEqStrict question "Battery 2 State of Health"}} {{#if
+                    answer}} {{answer}} {{else}} Not applicable {{/if}} {{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="iju3i">Battery 3</td>
+                <td id="ih8ji">{{#each checklist}}{{#stringEqStrict question "Battery 3 Voltage"}} {{#if answer}}
+                    {{answer}} {{else}} Not applicable {{/if}} {{/stringEqStrict}}{{/each}}</td>
+                <td id="i7kr6">{{#each checklist}}{{#stringEqStrict question "Battery 3 State of Charge"}} {{#if
+                    answer}} {{answer}} {{else}} Not applicable {{/if}} {{/stringEqStrict}}{{/each}}</td>
+                <td id="ivl9o">{{#each checklist}}{{#stringEqStrict question "Battery 3 State of Health"}} {{#if
+                    answer}} {{answer}} {{else}} Not applicable {{/if}} {{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="in1pze">Battery 4</td>
+                <td id="imhm69">{{#each checklist}}{{#stringEqStrict question "Battery 4 Voltage"}}{{#if answer}}
+                    {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="ikvrse">{{#each checklist}}{{#stringEqStrict question "Battery 4 State of Charge"}}{{#if
+                    answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="ig4vji">{{#each checklist}}{{#stringEqStrict question "Battery 4 State of Health"}}{{#if
+                    answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr><!-- Additional Battery Start-->
+            <tr>
+                <td id="iq9ejt">Battery 5</td>
+                <td id="irnuld">{{#each ../checklist}}{{#stringEqStrict question "Battery 5
+                    Voltage"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="ihoq8x">{{#each ../checklist}}{{#stringEqStrict question "Battery 5 State of
+                    Charge"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="iyfu2z">{{#each ../checklist}}{{#stringEqStrict question "Battery 5 State of
+                    Health"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="i450ht">Battery 6</td>
+                <td id="ingipl">{{#each ../checklist}}{{#stringEqStrict question "Battery 6
+                    Voltage"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="is9wr5">{{#each ../checklist}}{{#stringEqStrict question "Battery 6 State of
+                    Charge"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="ilaxuy">{{#each ../checklist}}{{#stringEqStrict question "Battery 6 State of
+                    Health"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+            </tr><!-- Additional Battery Over--><!-- Additional Battery Start-->
+            <tr>
+                <td id="ipo1u5">Battery 7</td>
+                <td id="i3aa23">{{#each ../checklist}}{{#stringEqStrict question "Battery 7
+                    Voltage"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="ihw0bt">{{#each ../checklist}}{{#stringEqStrict question "Battery 7 State of
+                    Charge"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="itt77e">{{#each ../checklist}}{{#stringEqStrict question "Battery 7 State of
+                    Health"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="ix8g58">Battery 8</td>
+                <td id="iuh1g9">{{#each ../checklist}}{{#stringEqStrict question "Battery 8
+                    Voltage"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="i7a4qy">{{#each ../checklist}}{{#stringEqStrict question "Battery 8 State of
+                    Charge"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="izjiij">{{#each ../checklist}}{{#stringEqStrict question "Battery 8 State of
+                    Health"}}{{answer}}{{/stringEqStrict}}{{/each}}</td>
+            </tr><!-- Additional Battery Over-->
+        </tbody>
+    </table>
+
+    {{#eachLastInstance job_status "status_name"}} {{#stringEq status_name "Started"}}
+
+    {{/stringEq}}{{/eachLastInstance}}
+    <table id="iebksg">
+        <tbody>
+            <tr>
+                <td id="igmqyz"><b>Battery Water Level</b> - {{#each checklist}}{{#stringEqStrict question "Battery
+                    Water Level"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}
+                </td>
+                <td id="il6yx2"><b>Battery Terminals and Cable Condition</b> - {{#each checklist}}{{#stringEqStrict
+                    question "Battery Terminals and Cable Condition"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="i77o1j"><b>Battery Charger</b> - {{#each checklist}}{{#stringEqStrict question "Battery
+                    Charger"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="igv4jt"><b>Charge State</b> - {{#each checklist}}{{#stringEqStrict question "Charge
+                    State"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td colspan="2" id="iztivd"><b>Additional Battery Comments</b> - {{#each checklist}}{{#stringEqStrict
+                    question "Additional Battery Comments"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+        </tbody>
+    </table>
+    {{#eachLastInstance job_status "status_name"}} {{#stringEq status_name "Started"}}
+    {{#each checklist}}{{#stringEqStrict question "Battery Report"}}
+    {{#if answer}}
+    <div id="igppsk"><img src="{{answer}}" id="it88n3" />
+        <p id="i73o5l">Battery Report</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Battery Terminal Condition"}}
+    {{#if answer}}
+    <div id="immgmh"><img src="{{answer}}" id="iztyf7" />
+        <p id="iqf5ao">Battery Terminal Condition</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{/stringEq}}{{/eachLastInstance}}
+
+    {{#eachLastInstance job_status "status_name"}} {{#stringEq status_name "Started"}}
+
+    {{/stringEq}}{{/eachLastInstance}}
+    <table id="ixuzd8">
+        <tbody>
+            <tr>
+                <td colspan="4" id="i0uqjp"><b>Electrics and Lights</b></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Key Switch or Keypad if fitted</b> - {{#each checklist}}{{#stringEqStrict question
+                    "Key Switch or Keypad if fitted"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="iuyaig"><b>Forward/Reverse Switch & Buzzer</b> - {{#each checklist}}{{#stringEqStrict question
+                    "Forward/Reverse Switch & Buzzer"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="iqu5il"><b>Horn</b> - {{#each checklist}}{{#stringEqStrict question "Horn"}}{{#if answer}}
+                    {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="irgzuh"><b>Are Headlights fitted</b> - {{#each checklist}}{{#stringEqStrict question "Are
+                    Headlights fitted"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="ip26nb"><b>Are all headlights working</b> - {{#each checklist}}{{#stringEqStrict question "Are
+                    all headlights working"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="i9cdl5"><b>Headlight Defects</b> - {{#each checklist}}{{#stringEqStrict question "Headlight
+                    Defects"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="ikj86u"><b>Tow Switch Status</b> - {{#each checklist}}{{#stringEqStrict question "Tow Switch
+                    Status"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="iltw7g"><b>Are Indicators fitted?</b> - {{#each checklist}}{{#stringEqStrict question "Are
+                    Indicators fitted"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="ikwnnd"><b>Are all indicators working?</b> - {{#each checklist}}{{#stringEqStrict question "Are
+                    all indicators working"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="iojfta"><b>Indicator Defects</b> - {{#each checklist}}{{#stringEqStrict question "Indicator
+                    Defects"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="iubk2k"><b>Are Rear Lights Fitted?</b> - {{#each checklist}}{{#stringEqStrict question "Are Rear
+                    Lights Fitted"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="i139rn"><b>Are all rear lights working?</b> - {{#each checklist}}{{#stringEqStrict question "Are
+                    all rear lights working"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="iu9zzj"><b>Are Rear Lights Fitted?</b> - {{#each checklist}}{{#stringEqStrict question "Are Rear
+                    Lights Fitted"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="ijgxqw"><b>Rear Tail/Brake Light Defects</b> - {{#each checklist}}{{#stringEqStrict question
+                    "Rear Tail/Brake Light Defects"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="i2xkix"><b>Are Rear Lights Fitted?</b> - {{#each checklist}}{{#stringEqStrict question "Are Rear
+                    Lights Fitted"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="idl6ij"><b>Steering and Wheel Alignment Visual Iinspection</b> - {{#each
+                    checklist}}{{#stringEqStrict question "Steering and Wheel Alignment Visual Iinspection"}}{{#if
+                    answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="i7uw3q"><b>Steering Notes</b> - {{#each checklist}}{{#stringEqStrict question "Steering
+                    Notes"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="iyyape"><b>Front Suspension Visual Inspection</b> - {{#each checklist}}{{#stringEqStrict
+                    question "Front Suspension Visual Inspection"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="imsg29"><b>Front suspension notes</b> - {{#each checklist}}{{#stringEqStrict question "Front
+                    suspension notes:"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="inqrr5"><b>Rear Suspension Visual Inspection</b> - {{#each checklist}}{{#stringEqStrict question
+                    "Rear Suspension Visual Inspection"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="ikd82v"><b>Front suspension notes</b> - {{#each checklist}}{{#stringEqStrict question "Rear
+                    Suspension Notes"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="i9cmwk"><b>Braking SystemWindscreen Condition</b> - {{#each checklist}}{{#stringEqStrict
+                    question "Braking System"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="imohvn"><b>Windscreen Condition</b> - {{#each checklist}}{{#stringEqStrict question "Windscreen
+                    Condition"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}
+                </td>
+            </tr>
+            <tr>
+                <td id="i678fd"><b>Is the buggy in a clean condition</b> - {{#each checklist}}{{#stringEqStrict question
+                    "Is the buggy in a clean condition"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="ilodvg"><b>Front Bodywork Condition</b> - {{#each checklist}}{{#stringEqStrict question "Front
+                    Bodywork Condition"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="i2zhzj"><b>Rear Bodywork Condition</b> - {{#each checklist}}{{#stringEqStrict question "Rear
+                    Bodywork Condition"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="iyfbvi"><b>Seat Condition</b> - {{#each checklist}}{{#stringEqStrict question "Seat
+                    Condition"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}
+                </td>
+            </tr>
+            <tr>
+                <td id="i2bp9g"><b>Are Front Seat Belts fitted</b> - {{#each checklist}}{{#stringEqStrict question "Are
+                    Front Seat Belts fitted"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="in9c8a"><b>Front Seat Belt Condition</b> - {{#each checklist}}{{#stringEqStrict question "Front
+                    Seat Belt Condition"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="i8xkjf"><b>Are Rear Seat Belts Fitted</b> - {{#each checklist}}{{#stringEqStrict question "Are
+                    Rear Seat Belts Fitted"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="iudrtm"><b>Rear Seat Belt Condition</b> - {{#each checklist}}{{#stringEqStrict question "Rear
+                    Seat Belt Condition"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="i5ugtl"><b>Front Drivers Side Tyre Report</b> - {{#each checklist}}{{#stringEqStrict question
+                    "Front Drivers Side Tyre Report"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="isavwm"><b>Tread Depth</b> - {{#each checklist}}{{#stringEqStrict question "Tread Depth"}}{{#if
+                    answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="i4fyav"><b>Front Passenger Side Tyre Report</b> - {{#each checklist}}{{#stringEqStrict question
+                    "Front Passenger Side Tyre Report"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="im5vbx"><b>FPS Tread Depth</b> - {{#each checklist}}{{#stringEqStrict question "FPS Tread
+                    Depth"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="ih6g3j"><b>Rear Passenger Side Tyre Report</b> - {{#each checklist}}{{#stringEqStrict question
+                    "Rear Passenger Side Tyre Report"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="iv7hqq"><b>RPS Tread Depth</b> - {{#each checklist}}{{#stringEqStrict question "RPS Tread
+                    Depth"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td id="iwc9pi"><b>Rear Drivers Side Tyre Report</b> - {{#each checklist}}{{#stringEqStrict question
+                    "Rear Drivers Side Tyre Report"}}{{#if answer}} {{answer}} {{else}} Not applicable
+                    {{/if}}{{/stringEqStrict}}{{/each}}</td>
+                <td id="iiwl3x"><b>RDS Tread Depth</b> - {{#each checklist}}{{#stringEqStrict question "RDS Tread
+                    Depth"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}</td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Additional Comments</b> - {{#each checklist}}{{#stringEqStrict question "Additional
+                    Comments"}}{{#if answer}} {{answer}} {{else}} Not applicable {{/if}}{{/stringEqStrict}}{{/each}}
+                </td>
+            </tr>
+        </tbody>
+    </table><!-- Image Part 2 -->
+    {{#eachLastInstance job_status "status_name"}} {{#stringEq status_name "Started"}}
+    {{#each checklist}}{{#stringEqStrict question "Picture of damaged headlights"}}
+    {{#if answer}}
+    <div id="iy6duq"><img src="{{answer}}" id="i1tbog" />
+        <p id="ixtl5z">Picture of damaged headlights</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Picture of damaged indicators"}}
+    {{#if answer}}
+    <div id="iaoj1f"><img src="{{answer}}" id="isup0w" />
+        <p id="i7zosi">Picture of damaged indicators</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Picture of damaged rear lights"}}
+    {{#if answer}}
+    <div id="inyraz"><img src="{{answer}}" id="i2e5ol" />
+        <p id="ivs1c8">Picture of damaged rear lights</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Brake Report"}}
+    {{#if answer}}
+    <div id="ilzamt"><img src="{{answer}}" id="iqq3j5" />
+        <p id="i09gog">Brake Report</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Front Passenger Side picture"}}
+    {{#if answer}}
+    <div id="i33ard"><img src="{{answer}}" id="ifcv79" />
+        <p id="igqi1y">Front Passenger Side picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Front bonnet / screen picture"}}
+    {{#if answer}}
+    <div id="iwwxwm"><img src="{{answer}}" id="i3i85w" />
+        <p id="ilgfyg">Front bonnet / screen picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Front Drivers Side picture"}}
+    {{#if answer}}
+    <div id="icc8fj"><img src="{{answer}}" id="ir4cmp" />
+        <p id="iwv8wo">Front Drivers Side picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Rear Buggy Picture"}}
+    {{#if answer}}
+    <div id="iruwbw"><img src="{{answer}}" id="i8pvqr" />
+        <p id="ik3v5f">Rear Buggy Picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Rear Drivers Side Picture"}}
+    {{#if answer}}
+    <div id="i48rf9"><img src="{{answer}}" id="inlxaz" />
+        <p id="ipv7hv">Rear Drivers Side Picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Rear Passenger Side Picture"}}
+    {{#if answer}}
+    <div id="ic5bsw"><img src="{{answer}}" id="iba0gp" />
+        <p id="i0vjmj">Rear Passenger Side Picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Front Seat Pictures"}}
+    {{#if answer}}
+    <div id="i6jq18"><img src="{{answer}}" id="i8320k" />
+        <p id="i7jv2b">Front Seat Pictures</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Rear Seat Pictures"}}
+    {{#if answer}}
+    <div id="inya35"><img src="{{answer}}" id="ih25m4" />
+        <p id="ip1v3l">Rear Seat Pictures</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Sidewall Picture"}}
+    {{#if answer}}
+    <div id="ivuvdi"><img src="{{answer}}" id="imehpz" />
+        <p id="i8pqk7">Sidewall Picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Tread Picture"}}
+    {{#if answer}}
+    <div id="iqchfr"><img src="{{answer}}" id="iu5twv" />
+        <p id="ixjrsb">Tread Picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "FPS Sidewall picture"}}
+    {{#if answer}}
+    <div id="idlwug"><img src="{{answer}}" id="ioqtrl" />
+        <p id="ij5xfb">FPS Sidewall picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "FPS Tread picture"}}
+    {{#if answer}}
+    <div id="i5bf1h"><img src="{{answer}}" id="i3ym9c" />
+        <p id="ie5qqj">FPS Tread picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "RPS Sidewall picture"}}
+    {{#if answer}}
+    <div id="ixkkwg"><img src="{{answer}}" id="ifmi3c" />
+        <p id="i5vdpi">RPS Sidewall picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "RPS Tread picture"}}
+    {{#if answer}}
+    <div id="iikdin"><img src="{{answer}}" id="i4uh0l" />
+        <p id="i21jx4">RPS Tread picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "RDS Sidewall picture"}}
+    {{#if answer}}
+    <div id="ii5v2m"><img src="{{answer}}" id="icc2es" />
+        <p id="i5kz74">RDS Sidewall picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "RDS Tread picture"}}
+    {{#if answer}}
+    <div id="i3zbi6"><img src="{{answer}}" id="i82sgr" />
+        <p id="i1kn0q">RDS Tread picture</p>
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{#each checklist}}{{#stringEqStrict question "Additional Pictures"}}
+    {{#if answer}}
+    <div id="i0u2pk">
+        <p id="ixvzok">Additional Pictures</p>
+        {{#split answer ","}}
+        <img src="{{this}}" id="ijbhh3" />
+        {{/split}}
+    </div>
+    {{else}}
+    {{/if}}
+    {{/stringEqStrict}}{{/each}}
+    {{/stringEq}}{{/eachLastInstance}}
+    <!-- Image Part 2 -->
+    <div>
+        {{#eachLastInstance job_status "status_name"}}
+        {{#stringEq status_name "Completed"}}
+        <img src="{{customer_signature}}" id="i738bd" />
+        <p id="ivalei">Customer Signature</p>
+        {{/stringEq}}
+        {{/eachLastInstance}}
+    </div>
+</div>
+<div id="pageFooter"><a href="https://zuper.co/"><img
+            src="https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/d72d9c81-ce36-4c62-8242-e5a67cfef34f/2a3c0810-35db-11ec-ae26-13d84d253eaf.png"
+            id="i4d0ko" /></a></div>

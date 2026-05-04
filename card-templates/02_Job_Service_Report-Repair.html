@@ -1,0 +1,260 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    * {
+        font-size: 12px;
+        font-family: Roboto, sans-serif;
+    }
+
+    body {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        height: auto;
+        width: auto;
+    }
+
+    table {
+        break-inside: avoid;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+        border-top-width: initial !important;
+        border-right-width: initial !important;
+        border-bottom-width: initial !important;
+        border-left-width: initial !important;
+        border-top-style: none !important;
+        border-right-style: none !important;
+        border-bottom-style: none !important;
+        border-left-style: none !important;
+        border-top-color: initial !important;
+        border-right-color: initial !important;
+        border-bottom-color: initial !important;
+        border-left-color: initial !important;
+        border-image-source: initial !important;
+        border-image-slice: initial !important;
+        border-image-width: initial !important;
+        border-image-outset: initial !important;
+        border-image-repeat: initial !important;
+        border-collapse: collapse;
+    }
+
+    tr,
+    th,
+    td {
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: black;
+        border-right-color: black;
+        border-bottom-color: black;
+        border-left-color: black;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-collapse: collapse;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-row-group;
+    }
+
+    tr {
+        break-inside: avoid;
+        break-before: avoid;
+    }
+
+    #iupd {
+        width: 100%;
+    }
+
+    #iwd4x {
+        margin-top: 1%;
+    }
+
+    #ib7ce {
+        width: 100%;
+    }
+
+    #ittyj {
+        width: 50%;
+    }
+
+    #iue4i {
+        width: 50%;
+    }
+
+    #idmqk {
+        width: 50%;
+    }
+
+    #i1v8a {
+        width: 50%;
+    }
+
+    #i4cqz {
+        text-align: center;
+    }
+
+    #iqzl9 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #imb7g {
+        font-weight: bold;
+    }
+
+    #i7gyl {
+        width: 500px;
+        height: 300px;
+    }
+
+    #iio2x {
+        font-weight: bold;
+    }
+
+    #ir8ua {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #i1v4q {
+        font-weight: bold;
+    }
+
+    #iirs6 {
+        width: 500px;
+        height: 300px;
+    }
+
+    #ivxof {
+        font-weight: bold;
+    }
+
+    #i84yg {
+        font-weight: bold;
+    }
+
+    #iw6ak {
+        box-sizing: border-box;
+        color: black;
+        width: 175px;
+        height: 75px;
+        margin: 3px 0 6px 6px;
+        padding: 3px 1px 0 8px;
+    }
+
+    #pageFooter {
+        text-align: center;
+    }
+
+    #i49rf {
+        width: 200px;
+    }
+</style>
+<meta charset="utf-8" />
+<title>Site Survey Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+<div id="pageHeader"><img
+        src="https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/d72d9c81-ce36-4c62-8242-e5a67cfef34f/cd39ef40-4b6c-11ec-a4e4-5bb78aa0e604.png"
+        alt="https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/d72d9c81-ce36-4c62-8242-e5a67cfef34f/cd39ef40-4b6c-11ec-a4e4-5bb78aa0e604.png"
+        id="iupd" />
+</div>
+<div id="iwd4x">
+
+    {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Pre Start Risk Assessment"}}
+
+    {{#each checklist}}
+
+    {{/each}}
+    {{/stringEq}}{{/eachLastInstance}}
+    <table id="ib7ce">
+        <tbody>
+            <tr>
+                <td id="ittyj"><b>Customer Name</b> - {{customer.customer_first_name}} {{customer.customer_last_name}}
+                </td>
+                <td id="iue4i"><b>Date & time</b> - {{#if scheduled_start_time}} {{formatDateWithTimeZone
+                    scheduled_start_time "DD-MM-YY hh:mm A" timezone}} {{else}} {{formatDateWithTimeZone due_date
+                    "DD-MM-YY" timezone}} {{/if}}</td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Customer Address</b> - {{customer_billing_address.street}},
+                    {{customer_billing_address.state}}, {{customer.customer_contact_no.mobile}}</td>
+            </tr>
+            <tr>
+                <td id="idmqk"><b>Job Ref</b> - {{work_order_number}}</td>
+                <td id="i1v8a"><b>Technicians</b> – {{#each assigned_to}} {{user.first_name}} {{user.last_name}},
+                    {{/each}}</td>
+            </tr>
+            <tr>
+                <td colspan="2" id="i4cqz"><b>Pre Start Risk Assessment</b></td>
+            </tr>
+            <tr>
+                <td><b>{{question}}</b></td>
+                <td>{{answer}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <p id="iqzl9">Before Service</p>
+        {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Started"}}{{#each checklist}}
+        {{#stringEqStrict question "Before Picture"}}
+        <p id="imb7g">{{question}}</p><img src="{{answer}}" id="i7gyl" />
+        {{/stringEqStrict}}
+        {{#stringEqStrict question "Job Description"}}
+        <p id="iio2x">{{question}}</p>
+        <p>{{answer}}</p>
+        {{/stringEqStrict}}
+        {{/each}}{{/stringEq}}{{/eachLastInstance}}
+
+        <p id="ir8ua">After Service</p>
+        {{#eachLastInstance job_status "status_name"}}{{#stringEq status_name "Completed"}}{{#each checklist}}
+        {{#stringEqStrict question "After Picture"}}
+        <p id="i1v4q">{{question}}</p><img src="{{answer}}" id="iirs6" />
+        {{/stringEqStrict}}
+        {{#stringEqStrict question "Job Completion Notes"}}
+        <p id="ivxof">{{question}}</p>
+        <p>{{answer}}</p>
+        {{/stringEqStrict}}
+        {{/each}}{{/stringEq}}{{/eachLastInstance}}
+    </div>
+    <div>
+        <p id="i84yg">Customer Signature</p>
+        {{#eachLastInstance job_status "status_name"}}
+        {{#stringEq status_name "Completed"}}
+        <img src="{{customer_signature}}" id="iw6ak" />
+        {{/stringEq}}
+        {{/eachLastInstance}}
+    </div>
+</div>
+<div id="pageFooter"><a href="https://zuper.co/"><img
+            src="https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/d72d9c81-ce36-4c62-8242-e5a67cfef34f/2a3c0810-35db-11ec-ae26-13d84d253eaf.png"
+            id="i49rf" /></a>
+</div>

@@ -1,0 +1,489 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    * {
+        font-size: 12px;
+        font-family: Roboto, Arial, sans-serif;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    table {
+        break-inside: avoid;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+        border-top-width: initial !important;
+        border-right-width: initial !important;
+        border-bottom-width: initial !important;
+        border-left-width: initial !important;
+        border-top-style: none !important;
+        border-right-style: none !important;
+        border-bottom-style: none !important;
+        border-left-style: none !important;
+        border-top-color: initial !important;
+        border-right-color: initial !important;
+        border-bottom-color: initial !important;
+        border-left-color: initial !important;
+        border-image-source: initial !important;
+        border-image-slice: initial !important;
+        border-image-width: initial !important;
+        border-image-outset: initial !important;
+        border-image-repeat: initial !important;
+    }
+
+    tr,
+    th,
+    td {
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        border-top-width: initial !important;
+        border-right-width: initial !important;
+        border-bottom-width: initial !important;
+        border-left-width: initial !important;
+        border-top-style: none !important;
+        border-right-style: none !important;
+        border-bottom-style: none !important;
+        border-left-style: none !important;
+        border-top-color: initial !important;
+        border-right-color: initial !important;
+        border-bottom-color: initial !important;
+        border-left-color: initial !important;
+        border-image-source: initial !important;
+        border-image-slice: initial !important;
+        border-image-width: initial !important;
+        border-image-outset: initial !important;
+        border-image-repeat: initial !important;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-row-group;
+    }
+
+    tr {
+        break-inside: avoid;
+        break-before: avoid;
+    }
+
+    body.A3 .sheet {
+        width: 297mm;
+        height: 419mm;
+    }
+
+    body.A3.landscape .sheet {
+        width: 420mm;
+        height: 296mm;
+    }
+
+    body.A4 .sheet {
+        width: 210mm;
+        min-height: 296mm;
+    }
+
+    body.A4.landscape .sheet {
+        width: 297mm;
+        height: 209mm;
+    }
+
+    body.A5 .sheet {
+        width: 148mm;
+        height: 209mm;
+    }
+
+    body.A5.landscape .sheet {
+        width: 210mm;
+        height: 147mm;
+    }
+
+    body.letter .sheet {
+        width: 216mm;
+        height: 279mm;
+    }
+
+    body.letter.landscape .sheet {
+        width: 280mm;
+        height: 215mm;
+    }
+
+    body.legal .sheet {
+        width: 216mm;
+        height: 356mm;
+    }
+
+    body.legal.landscape .sheet {
+        width: 357mm;
+        height: 215mm;
+    }
+
+    div.height {
+        height: 150px;
+    }
+
+    .br_ln td {
+        border-top-width: 1px !important;
+        border-right-width: 1px !important;
+        border-bottom-width: 1px !important;
+        border-left-width: 1px !important;
+        border-top-style: solid !important;
+        border-right-style: solid !important;
+        border-bottom-style: solid !important;
+        border-left-style: solid !important;
+        border-top-color: rgb(167, 167, 167) !important;
+        border-right-color: rgb(167, 167, 167) !important;
+        border-bottom-color: rgb(167, 167, 167) !important;
+        border-left-color: rgb(167, 167, 167) !important;
+        border-image-source: initial !important;
+        border-image-slice: initial !important;
+        border-image-width: initial !important;
+        border-image-outset: initial !important;
+        border-image-repeat: initial !important;
+    }
+
+    td {
+        vertical-align: top;
+    }
+
+    .content {
+        width: 92%;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        padding-top: 10px;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 18px;
+    }
+
+    .job-title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 6px;
+        margin-left: 0px;
+    }
+
+    .job-number {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .grid {
+        width: 100%;
+        border-collapse: separate;
+        -webkit-border-horizontal-spacing: 20px;
+        -webkit-border-vertical-spacing: 0px;
+        table-layout: fixed;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 18px;
+        margin-left: 0px;
+    }
+
+    .box {
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-bottom-width: 2px;
+        border-left-width: 2px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: rgb(0, 0, 0);
+        border-right-color: rgb(0, 0, 0);
+        border-bottom-color: rgb(0, 0, 0);
+        border-left-color: rgb(0, 0, 0);
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        height: 110px;
+        padding-top: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+        text-align: center;
+        vertical-align: top;
+    }
+
+    .label {
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        margin-bottom: 10px;
+    }
+
+    .value {
+        font-size: 16px;
+        line-height: 20px;
+        overflow-wrap: break-word;
+    }
+
+    .desc-wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .desc-label {
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+
+    .desc-box {
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-bottom-width: 2px;
+        border-left-width: 2px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: rgb(0, 0, 0);
+        border-right-color: rgb(0, 0, 0);
+        border-bottom-color: rgb(0, 0, 0);
+        border-left-color: rgb(0, 0, 0);
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        min-height: 210px;
+        padding-top: 14px;
+        padding-right: 12px;
+        padding-bottom: 14px;
+        padding-left: 12px;
+        font-size: 14px;
+        white-space-collapse: collapse;
+        text-wrap-mode: wrap;
+    }
+
+    .desc-box p {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 8px;
+        margin-left: 0px;
+    }
+
+    .desc-box * {
+        max-width: 100%;
+    }
+
+    .footer {
+        margin-top: 14px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .footer strong {
+        font-weight: 700;
+    }
+
+    #it86d {
+        margin-bottom: 10px;
+    }
+
+    @page {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    @page {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    @page {
+        size: a4 portrait;
+        margin-top: 25mm;
+        margin-right: 25mm;
+        margin-bottom: 25mm;
+        margin-left: 25mm;
+    }
+
+    @media screen {
+        body {
+            background-image: initial;
+            background-position-x: initial;
+            background-position-y: initial;
+            background-size: initial;
+            background-repeat: initial;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: rgb(224, 224, 224);
+        }
+    }
+
+    @media print {
+        body.A3.landscape {
+            width: 420mm;
+        }
+
+        body.A3,
+        body.A4.landscape {
+            width: 297mm;
+        }
+
+        body.A4,
+        body.A5.landscape {
+            width: 210mm;
+        }
+
+        body.A5 {
+            width: 148mm;
+        }
+
+        body.letter,
+        body.legal {
+            width: 216mm;
+        }
+
+        body.letter.landscape {
+            width: 280mm;
+        }
+
+        body.legal.landscape {
+            width: 357mm;
+        }
+    }
+</style>
+<div class="content">
+    <!-- TITLE (fixed: better fallback chain) -->
+    <div class="header">
+        <div class="job-title">
+            {{#if job_title}}
+            {{job_title}}
+            {{else if work_order_title}}
+            {{work_order_title}}
+            {{else if title}}
+            {{title}}
+            {{else}}
+            Job Sheet
+            {{/if}}
+        </div>
+        <div class="job-number">
+            Job No: {{work_order_number}}
+        </div>
+    </div><!-- Scheduled Start / End -->
+    <table class="grid">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="box">
+                        <div class="label">SCHEDULED START TIME</div>
+                        <div class="value">
+                            {{#if scheduled_start_time}}
+                            {{formatDateWithTimeZone scheduled_start_time "YYYY/MM/DD hh:mm A" timezone}}
+                            {{else}}
+                            -
+                            {{/if}}
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box">
+                        <div class="label">SCHEDULED END TIME</div>
+                        <div class="value">
+                            {{#if scheduled_end_time}}
+                            {{formatDateWithTimeZone scheduled_end_time "YYYY/MM/DD hh:mm A" timezone}}
+                            {{else}}
+                            -
+                            {{/if}}
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table><!-- Created By / Assigned -->
+    <table id="it86d" class="grid">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="box">
+                        <div class="label">JOB CREATED BY</div>
+                        <div class="value">
+                            {{#if job_created_by}}
+                            {{job_created_by}}
+                            {{else if created_by}}
+                            {{created_by.first_name}} {{created_by.last_name}}
+                            {{else}}
+                            -
+                            {{/if}}
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box">
+                        <div class="label">USERS / TEAMS ASSIGNED</div>
+                        <div class="value">
+                            {{#if assigned_to}}
+                            {{#each assigned_to}}
+                            {{user.first_name}} {{user.last_name}}{{#unless @last}}, {{/unless}}
+                            {{/each}}
+                            {{else}}
+                            -
+                            {{/if}}
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table><!-- DESCRIPTION (fixed: use triple braces so   becomes a space) -->
+    <div class="desc-wrap">
+        <div class="desc-label">DESCRIPTION</div>
+        <div class="desc-box">
+            {{{job_description}}}
+        </div>
+        <div class="footer"><strong>Note:</strong>
+            This is a Job assigned by
+            {{#if job_created_by}}
+            {{job_created_by}}
+            {{else if created_by}}
+            {{created_by.first_name}} {{created_by.last_name}}
+            {{else}}
+            -
+            {{/if}}
+            to the
+            {{#if assigned_to}}
+            {{#each assigned_to}}
+            {{user.first_name}} {{user.last_name}}{{#unless @last}}, {{/unless}}
+            {{/each}}
+            {{else}}
+            -
+            {{/if}}.
+        </div>
+    </div>
+</div>
