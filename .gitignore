@@ -27,3 +27,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+card-templates
+chrome-extension
+job-Examples
+
+# Local scratch / dump folders
+src/dump
+zuper shit

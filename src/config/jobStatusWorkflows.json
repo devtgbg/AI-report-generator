@@ -1,0 +1,51 @@
+{
+  "workflows": {
+    "AMC Collection & Valet": ["TBC", "Scheduled", "On My Way", "On Hold", "Buggy at Workshop", "Cleaning Started", "Cleaning Completed", "Closed"],
+    "AMC - Offsite": ["TBC", "Scheduled", "On My Way", "Buggy not available", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Report Sent", "Closed"],
+    "AMC - Workshop": ["TBC", "Scheduled", "On My Way", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Vehicle Status", "Report Sent", "Closed"],
+    "AMC - OOC Offsite": ["TBC", "Scheduled", "On My Way", "Buggy not available", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Report Sent", "Closed"],
+    "AMC - OOC Workshop": ["TBC", "Scheduled", "On My Way", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Vehicle Status", "Report Sent", "Closed"],
+    "Billable - Offsite": ["TBC", "Scheduled", "On My Way", "Buggy not available", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Report Sent", "Closed"],
+    "Billable - Workshop": ["TBC", "Scheduled", "On My Way", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Vehicle Status", "Report Sent", "Closed"],
+    "Breakdown - Offsite": ["TBC", "Scheduled", "On My Way", "Buggy not available", "Pre Start Risk Assessment", "Started", "On Hold", "Breakdown Completed", "Report Sent", "Closed"],
+    "Breakdown - Workshop": ["TBC", "Scheduled", "On My Way", "Pre Start Risk Assessment", "Started", "On Hold", "Breakdown Completed", "Vehicle Status", "Report Sent", "Closed"],
+    "Delivery": ["TBC", "Scheduled", "On My Way", "On Hold", "Delivered", "Closed"],
+    "Collection": ["TBC", "Scheduled", "On My Way", "On Hold", "Buggy at Workshop", "Closed"],
+    "Flat Tyre - Offsite": ["TBC", "Scheduled", "On My Way", "Buggy not available", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Report Sent", "Closed"],
+    "Flat Tyre - Workshop": ["TBC", "Scheduled", "On My Way", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Vehicle Status", "Report Sent", "Closed"],
+    "Health Check - Offsite": ["TBC", "Scheduled", "On My Way", "Buggy not available", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Report Sent", "Closed"],
+    "Health Check - Workshop": ["TBC", "Scheduled", "On My Way", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Vehicle Status", "Report Sent", "Closed"],
+    "Install - Offsite": ["TBC", "Scheduled", "On My Way", "Buggy not available", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Report Sent", "Closed"],
+    "Install - Workshop": ["TBC", "Scheduled", "On My Way", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Vehicle Status", "Report Sent", "Closed"],
+    "Internal - Admin": ["TBC", "Scheduled", "Started", "On Hold", "Completed", "Closed"],
+    "Internal - Others": ["TBC", "Scheduled", "Started", "On Hold", "Completed", "Closed"],
+    "Internal - Workshop": ["TBC", "Scheduled", "Started", "On Hold", "Completed", "Closed"],
+    "PDI": ["TBC", "Scheduled", "On My Way", "Pre Start Risk Assessment", "Started", "On Hold", "Passed", "Vehicle Status", "Closed"],
+    "Quote": ["TBC", "Quote Submitted", "Quotation Approved", "Quote Rejected", "Quotation Revise", "Scheduled", "On My Way", "Buggy not available", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Report Sent", "Closed"],
+    "Refurb": ["TBC", "Scheduled", "On My Way", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Vehicle Status", "Report Sent", "Closed"],
+    "Registration": ["TBC", "RTA Fee Invoice Submitted", "RTA Fees Paid", "RTA Number Received", "Scheduled", "On My Way", "On Hold", "Cart Asset Registration", "Closed"],
+    "Rental - Drop": ["TBC", "Scheduled", "On My Way", "On Hold", "Delivered", "Closed"],
+    "Rental - Pickup": ["TBC", "Scheduled", "On My Way", "On Hold", "Buggy at Workshop", "Closed"],
+    "Seat Customisation": ["TBC", "Scheduled", "On My Way", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Vehicle Status", "Report Sent", "Closed"],
+    "Tenant Entry - Offsite": ["TBC", "Scheduled", "On My Way", "Buggy not available", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Report Sent", "Closed"],
+    "Tenant Exit - Offsite": ["TBC", "Scheduled", "On My Way", "Buggy not available", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Report Sent", "Closed"],
+    "Warranty": ["TBC", "Scheduled", "On My Way", "Buggy not available", "Pre Start Risk Assessment", "Started", "On Hold", "Job Completed", "Report Sent", "Closed"]
+  },
+  "defaultWorkflow": ["TBC", "Scheduled", "Started", "On Hold", "Completed", "Closed"],
+  "completedStatuses": [
+    "Closed",
+    "Completed",
+    "Job Completed",
+    "Delivered",
+    "Cleaning Completed",
+    "Breakdown Completed",
+    "Passed",
+    "Report Sent",
+    "Cart Asset Registration"
+  ],
+  "statusColors": {
+    "completed": "#22c55e",
+    "current": "#eab308",
+    "pending": "#d1d5db"
+  }
+}

@@ -15,7 +15,7 @@ dotenv.config({ path: path.join(rootDir, '.env') });
 dotenv.config({ path: path.join(rootDir, '.env.local') });
 
 export const config = {
-    port: process.env.PORT || 5000,
+    port: process.env.PORT || 7104,
     zuper: {
         apiKey: process.env.VITE_ZUPER_API_KEY || process.env.ZUPER_API_KEY,
         region: process.env.VITE_ZUPER_ACCOUNT_REGION || process.env.ZUPER_ACCOUNT_REGION || 'pro',

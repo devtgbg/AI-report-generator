@@ -1,4 +1,4 @@
-const ZUPER_API_BASE = 'http://localhost:5000/api';
+const ZUPER_API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:7104/api';
 
 // NOTE: Headers are now handled by the Backend Proxy (for security & CORS)
 const getHeaders = () => ({

@@ -1,10 +1,45 @@
 @import "tailwindcss";
+@import "./styles/scrollbar.css";
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --brand-primary: #1c6635;
+  /* Deep Green */
+  --brand-secondary: #309346;
+  /* Bright Green */
+  --brand-dark: #2a3a2f;
+  /* Dark Forest */
+  --brand-neutral: #99a6a3;
+  /* Sage */
+}
+
+/* Report Image Grid System */
+.report-image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 images per row */
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.report-image-wrapper {
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid var(--brand-neutral);
+  aspect-ratio: 4/3;
+}
+
+.report-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }

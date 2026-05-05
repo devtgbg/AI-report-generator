@@ -15,16 +15,10 @@ const HomePage = () => {
         setError('');
 
         try {
-            // We only need basic details here to get the UID if the user entered a number
-            // But fetchJobDetails returns the full object. 
-            // Optimally we should just allow the router to handle the ID if it's already a UID.
-            // But strict requirement: "Fetch details and show on webpage".
-            // Let's resolve the ID first.
-
             const fetchedData = await fetchJobDetails(inputJobId.trim());
             if (fetchedData && fetchedData.job_uid) {
-                // Navigate to details page
-                navigate(`/jobs/${fetchedData.job_uid}/details`, { state: { jobData: fetchedData } });
+                // Navigate directly to report page
+                navigate(`/jobs/${fetchedData.job_uid}/report`);
             } else {
                 setError('Job not found.');
             }
@@ -80,9 +74,9 @@ const HomePage = () => {
                 </div>
 
                 <div className="pt-8 border-t border-slate-100 flex justify-center gap-8 text-slate-400 text-sm">
-                    <span>v1.0.0</span>
+                    <span>Powered by Golf Buggy Guy IT Team</span>
                     <span>•</span>
-                    <span>Powered by Gemini 2.0</span>
+                    <span>v1.0.0</span>
                 </div>
 
             </div>
