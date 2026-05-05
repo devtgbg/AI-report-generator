@@ -1,0 +1,54 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# Dependencies (will be installed inside the image)
+node_modules
+
+# Build artifacts (the image rebuilds these)
+dist
+dist-ssr
+
+# Local env files — secrets come from Coolify env vars at runtime
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local-only / scratch folders (already in .gitignore but keep image lean)
+src/dump
+chrome-extension
+job-Examples
+zuper shit
+card-templates
+
+# Standalone scripts not needed at runtime
+scripts
+
+# Misc local test data
+*.bak
+*.tmp
+
+# Docs
+README.md
+*.md
+
+# Nixpacks (we're using Dockerfile build pack instead)
+nixpacks.toml
