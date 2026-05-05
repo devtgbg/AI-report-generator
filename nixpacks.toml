@@ -1,0 +1,16 @@
+# Force Nixpacks to treat this as a Node server (not a static Vite site).
+# The Express server in server/index.js serves both /api/* and the built dist/.
+
+providers = ['node']
+
+[phases.setup]
+nixPkgs = ['nodejs_22']
+
+[phases.install]
+cmds = ['npm ci --include=dev']
+
+[phases.build]
+cmds = ['npm run build']
+
+[start]
+cmd = 'node server/index.js'
